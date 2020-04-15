@@ -1,0 +1,115 @@
+\BOOKMARK [1][-]{section.1}{Asset Classes}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Summary of Asset Classes}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{History: FItreasshort}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{History: FItreaslong}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{History: FIIGshort}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{History: FIIGlong}{section.1}% 6
+\BOOKMARK [2][-]{subsection.1.6}{History: FIIGmid}{section.1}% 7
+\BOOKMARK [2][-]{subsection.1.7}{History: FIHY}{section.1}% 8
+\BOOKMARK [2][-]{subsection.1.8}{History: FIdevedintl}{section.1}% 9
+\BOOKMARK [2][-]{subsection.1.9}{History: FIdevingintl}{section.1}% 10
+\BOOKMARK [1][-]{section.2}{Clusters Analysis of Asset Classes}{}% 11
+\BOOKMARK [2][-]{subsection.2.1}{Asset Class: FixedIncome}{section.2}% 12
+\BOOKMARK [1][-]{section.3}{PCA for Clusters}{}% 13
+\BOOKMARK [2][-]{subsection.3.1}{Cluster: FItreasshort}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.2}{Cluster: FItreaslong}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.3}{Cluster: FIIGshort}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.4}{Cluster: FIIGlong}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.5}{Cluster: FIIGmid}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.6}{Cluster: FIHY}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.7}{Cluster: FIdevedintl}{section.3}% 20
+\BOOKMARK [2][-]{subsection.3.8}{Cluster: FIdevingintl}{section.3}% 21
+\BOOKMARK [1][-]{section.4}{Variable Selection}{}% 22
+\BOOKMARK [2][-]{subsection.4.1}{Single Factor Model for FItreasshort}{section.4}% 23
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Model - 1}{subsection.4.1}% 24
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Model - 2}{subsection.4.1}% 25
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Model - 3}{subsection.4.1}% 26
+\BOOKMARK [3][-]{subsubsection.4.1.4}{Model - 4}{subsection.4.1}% 27
+\BOOKMARK [3][-]{subsubsection.4.1.5}{Model - 5}{subsection.4.1}% 28
+\BOOKMARK [3][-]{subsubsection.4.1.6}{Model - 6}{subsection.4.1}% 29
+\BOOKMARK [2][-]{subsection.4.2}{Two Factor Model for FItreasshort}{section.4}% 30
+\BOOKMARK [2][-]{subsection.4.3}{Single Factor Model for FItreaslong}{section.4}% 31
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Model - 1}{subsection.4.3}% 32
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Model - 2}{subsection.4.3}% 33
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Model - 3}{subsection.4.3}% 34
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Model - 4}{subsection.4.3}% 35
+\BOOKMARK [3][-]{subsubsection.4.3.5}{Model - 5}{subsection.4.3}% 36
+\BOOKMARK [3][-]{subsubsection.4.3.6}{Model - 6}{subsection.4.3}% 37
+\BOOKMARK [3][-]{subsubsection.4.3.7}{Model - 7}{subsection.4.3}% 38
+\BOOKMARK [3][-]{subsubsection.4.3.8}{Model - 8}{subsection.4.3}% 39
+\BOOKMARK [3][-]{subsubsection.4.3.9}{Model - 9}{subsection.4.3}% 40
+\BOOKMARK [3][-]{subsubsection.4.3.10}{Model - 10}{subsection.4.3}% 41
+\BOOKMARK [2][-]{subsection.4.4}{Two Factor Model for FItreaslong}{section.4}% 42
+\BOOKMARK [2][-]{subsection.4.5}{Single Factor Model for FIIGshort}{section.4}% 43
+\BOOKMARK [3][-]{subsubsection.4.5.1}{Model - 1}{subsection.4.5}% 44
+\BOOKMARK [3][-]{subsubsection.4.5.2}{Model - 2}{subsection.4.5}% 45
+\BOOKMARK [3][-]{subsubsection.4.5.3}{Model - 3}{subsection.4.5}% 46
+\BOOKMARK [3][-]{subsubsection.4.5.4}{Model - 4}{subsection.4.5}% 47
+\BOOKMARK [3][-]{subsubsection.4.5.5}{Model - 5}{subsection.4.5}% 48
+\BOOKMARK [3][-]{subsubsection.4.5.6}{Model - 6}{subsection.4.5}% 49
+\BOOKMARK [3][-]{subsubsection.4.5.7}{Model - 7}{subsection.4.5}% 50
+\BOOKMARK [3][-]{subsubsection.4.5.8}{Model - 8}{subsection.4.5}% 51
+\BOOKMARK [3][-]{subsubsection.4.5.9}{Model - 9}{subsection.4.5}% 52
+\BOOKMARK [3][-]{subsubsection.4.5.10}{Model - 10}{subsection.4.5}% 53
+\BOOKMARK [3][-]{subsubsection.4.5.11}{Model - 11}{subsection.4.5}% 54
+\BOOKMARK [3][-]{subsubsection.4.5.12}{Model - 12}{subsection.4.5}% 55
+\BOOKMARK [2][-]{subsection.4.6}{Two Factor Model for FIIGshort}{section.4}% 56
+\BOOKMARK [2][-]{subsection.4.7}{Single Factor Model for FIIGlong}{section.4}% 57
+\BOOKMARK [3][-]{subsubsection.4.7.1}{Model - 1}{subsection.4.7}% 58
+\BOOKMARK [3][-]{subsubsection.4.7.2}{Model - 2}{subsection.4.7}% 59
+\BOOKMARK [3][-]{subsubsection.4.7.3}{Model - 3}{subsection.4.7}% 60
+\BOOKMARK [3][-]{subsubsection.4.7.4}{Model - 4}{subsection.4.7}% 61
+\BOOKMARK [3][-]{subsubsection.4.7.5}{Model - 5}{subsection.4.7}% 62
+\BOOKMARK [3][-]{subsubsection.4.7.6}{Model - 6}{subsection.4.7}% 63
+\BOOKMARK [3][-]{subsubsection.4.7.7}{Model - 7}{subsection.4.7}% 64
+\BOOKMARK [3][-]{subsubsection.4.7.8}{Model - 8}{subsection.4.7}% 65
+\BOOKMARK [3][-]{subsubsection.4.7.9}{Model - 9}{subsection.4.7}% 66
+\BOOKMARK [3][-]{subsubsection.4.7.10}{Model - 10}{subsection.4.7}% 67
+\BOOKMARK [2][-]{subsection.4.8}{Two Factor Model for FIIGlong}{section.4}% 68
+\BOOKMARK [2][-]{subsection.4.9}{Single Factor Model for FIIGmid}{section.4}% 69
+\BOOKMARK [3][-]{subsubsection.4.9.1}{Model - 1}{subsection.4.9}% 70
+\BOOKMARK [3][-]{subsubsection.4.9.2}{Model - 2}{subsection.4.9}% 71
+\BOOKMARK [3][-]{subsubsection.4.9.3}{Model - 3}{subsection.4.9}% 72
+\BOOKMARK [3][-]{subsubsection.4.9.4}{Model - 4}{subsection.4.9}% 73
+\BOOKMARK [3][-]{subsubsection.4.9.5}{Model - 5}{subsection.4.9}% 74
+\BOOKMARK [3][-]{subsubsection.4.9.6}{Model - 6}{subsection.4.9}% 75
+\BOOKMARK [3][-]{subsubsection.4.9.7}{Model - 7}{subsection.4.9}% 76
+\BOOKMARK [3][-]{subsubsection.4.9.8}{Model - 8}{subsection.4.9}% 77
+\BOOKMARK [2][-]{subsection.4.10}{Two Factor Model for FIIGmid}{section.4}% 78
+\BOOKMARK [2][-]{subsection.4.11}{Single Factor Model for FIHY}{section.4}% 79
+\BOOKMARK [3][-]{subsubsection.4.11.1}{Model - 1}{subsection.4.11}% 80
+\BOOKMARK [3][-]{subsubsection.4.11.2}{Model - 2}{subsection.4.11}% 81
+\BOOKMARK [3][-]{subsubsection.4.11.3}{Model - 3}{subsection.4.11}% 82
+\BOOKMARK [3][-]{subsubsection.4.11.4}{Model - 4}{subsection.4.11}% 83
+\BOOKMARK [3][-]{subsubsection.4.11.5}{Model - 5}{subsection.4.11}% 84
+\BOOKMARK [3][-]{subsubsection.4.11.6}{Model - 6}{subsection.4.11}% 85
+\BOOKMARK [3][-]{subsubsection.4.11.7}{Model - 7}{subsection.4.11}% 86
+\BOOKMARK [3][-]{subsubsection.4.11.8}{Model - 8}{subsection.4.11}% 87
+\BOOKMARK [3][-]{subsubsection.4.11.9}{Model - 9}{subsection.4.11}% 88
+\BOOKMARK [3][-]{subsubsection.4.11.10}{Model - 10}{subsection.4.11}% 89
+\BOOKMARK [3][-]{subsubsection.4.11.11}{Model - 11}{subsection.4.11}% 90
+\BOOKMARK [3][-]{subsubsection.4.11.12}{Model - 12}{subsection.4.11}% 91
+\BOOKMARK [3][-]{subsubsection.4.11.13}{Model - 13}{subsection.4.11}% 92
+\BOOKMARK [3][-]{subsubsection.4.11.14}{Model - 14}{subsection.4.11}% 93
+\BOOKMARK [3][-]{subsubsection.4.11.15}{Model - 15}{subsection.4.11}% 94
+\BOOKMARK [3][-]{subsubsection.4.11.16}{Model - 16}{subsection.4.11}% 95
+\BOOKMARK [3][-]{subsubsection.4.11.17}{Model - 17}{subsection.4.11}% 96
+\BOOKMARK [2][-]{subsection.4.12}{Two Factor Model for FIHY}{section.4}% 97
+\BOOKMARK [2][-]{subsection.4.13}{Single Factor Model for FIdevedintl}{section.4}% 98
+\BOOKMARK [3][-]{subsubsection.4.13.1}{Model - 1}{subsection.4.13}% 99
+\BOOKMARK [3][-]{subsubsection.4.13.2}{Model - 2}{subsection.4.13}% 100
+\BOOKMARK [3][-]{subsubsection.4.13.3}{Model - 3}{subsection.4.13}% 101
+\BOOKMARK [3][-]{subsubsection.4.13.4}{Model - 4}{subsection.4.13}% 102
+\BOOKMARK [3][-]{subsubsection.4.13.5}{Model - 5}{subsection.4.13}% 103
+\BOOKMARK [3][-]{subsubsection.4.13.6}{Model - 6}{subsection.4.13}% 104
+\BOOKMARK [3][-]{subsubsection.4.13.7}{Model - 7}{subsection.4.13}% 105
+\BOOKMARK [3][-]{subsubsection.4.13.8}{Model - 8}{subsection.4.13}% 106
+\BOOKMARK [3][-]{subsubsection.4.13.9}{Model - 9}{subsection.4.13}% 107
+\BOOKMARK [3][-]{subsubsection.4.13.10}{Model - 10}{subsection.4.13}% 108
+\BOOKMARK [3][-]{subsubsection.4.13.11}{Model - 11}{subsection.4.13}% 109
+\BOOKMARK [3][-]{subsubsection.4.13.12}{Model - 12}{subsection.4.13}% 110
+\BOOKMARK [2][-]{subsection.4.14}{Two Factor Model for FIdevedintl}{section.4}% 111
+\BOOKMARK [2][-]{subsection.4.15}{Single Factor Model for FIdevingintl}{section.4}% 112
+\BOOKMARK [3][-]{subsubsection.4.15.1}{Model - 1}{subsection.4.15}% 113
+\BOOKMARK [3][-]{subsubsection.4.15.2}{Model - 2}{subsection.4.15}% 114
+\BOOKMARK [2][-]{subsection.4.16}{Two Factor Model for FIdevingintl}{section.4}% 115

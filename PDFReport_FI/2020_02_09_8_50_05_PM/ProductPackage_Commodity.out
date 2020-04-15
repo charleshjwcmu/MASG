@@ -1,0 +1,76 @@
+\BOOKMARK [1][-]{section.1}{Asset Classes}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Summary of Asset Classes}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{History: COoil1}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{History: COoil2}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{History: COnatgas}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{History: COgasoline}{section.1}% 6
+\BOOKMARK [2][-]{subsection.1.6}{History: COgold}{section.1}% 7
+\BOOKMARK [2][-]{subsection.1.7}{History: COsilver}{section.1}% 8
+\BOOKMARK [2][-]{subsection.1.8}{History: COgrains}{section.1}% 9
+\BOOKMARK [1][-]{section.2}{Clusters Analysis of Asset Classes}{}% 10
+\BOOKMARK [2][-]{subsection.2.1}{Asset Class: Commodity}{section.2}% 11
+\BOOKMARK [1][-]{section.3}{PCA for Clusters}{}% 12
+\BOOKMARK [2][-]{subsection.3.1}{Cluster: COoil1}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.2}{Cluster: COoil2}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.3}{Cluster: COnatgas}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.4}{Cluster: COgasoline}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.5}{Cluster: COgold}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.6}{Cluster: COsilver}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.7}{Cluster: COgrains}{section.3}% 19
+\BOOKMARK [1][-]{section.4}{Variable Selection}{}% 20
+\BOOKMARK [2][-]{subsection.4.1}{Single Factor Model for COoil1}{section.4}% 21
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Model - 1}{subsection.4.1}% 22
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Model - 2}{subsection.4.1}% 23
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Model - 3}{subsection.4.1}% 24
+\BOOKMARK [3][-]{subsubsection.4.1.4}{Model - 4}{subsection.4.1}% 25
+\BOOKMARK [3][-]{subsubsection.4.1.5}{Model - 5}{subsection.4.1}% 26
+\BOOKMARK [3][-]{subsubsection.4.1.6}{Model - 6}{subsection.4.1}% 27
+\BOOKMARK [3][-]{subsubsection.4.1.7}{Model - 7}{subsection.4.1}% 28
+\BOOKMARK [3][-]{subsubsection.4.1.8}{Model - 8}{subsection.4.1}% 29
+\BOOKMARK [3][-]{subsubsection.4.1.9}{Model - 9}{subsection.4.1}% 30
+\BOOKMARK [3][-]{subsubsection.4.1.10}{Model - 10}{subsection.4.1}% 31
+\BOOKMARK [3][-]{subsubsection.4.1.11}{Model - 11}{subsection.4.1}% 32
+\BOOKMARK [3][-]{subsubsection.4.1.12}{Model - 12}{subsection.4.1}% 33
+\BOOKMARK [2][-]{subsection.4.2}{Two Factor Model for COoil1}{section.4}% 34
+\BOOKMARK [2][-]{subsection.4.3}{Single Factor Model for COoil2}{section.4}% 35
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Model - 1}{subsection.4.3}% 36
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Model - 2}{subsection.4.3}% 37
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Model - 3}{subsection.4.3}% 38
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Model - 4}{subsection.4.3}% 39
+\BOOKMARK [3][-]{subsubsection.4.3.5}{Model - 5}{subsection.4.3}% 40
+\BOOKMARK [3][-]{subsubsection.4.3.6}{Model - 6}{subsection.4.3}% 41
+\BOOKMARK [3][-]{subsubsection.4.3.7}{Model - 7}{subsection.4.3}% 42
+\BOOKMARK [3][-]{subsubsection.4.3.8}{Model - 8}{subsection.4.3}% 43
+\BOOKMARK [3][-]{subsubsection.4.3.9}{Model - 9}{subsection.4.3}% 44
+\BOOKMARK [3][-]{subsubsection.4.3.10}{Model - 10}{subsection.4.3}% 45
+\BOOKMARK [2][-]{subsection.4.4}{Two Factor Model for COoil2}{section.4}% 46
+\BOOKMARK [2][-]{subsection.4.5}{Single Factor Model for COnatgas}{section.4}% 47
+\BOOKMARK [3][-]{subsubsection.4.5.1}{Model - 1}{subsection.4.5}% 48
+\BOOKMARK [3][-]{subsubsection.4.5.2}{Model - 2}{subsection.4.5}% 49
+\BOOKMARK [3][-]{subsubsection.4.5.3}{Model - 3}{subsection.4.5}% 50
+\BOOKMARK [2][-]{subsection.4.6}{Two Factor Model for COnatgas}{section.4}% 51
+\BOOKMARK [2][-]{subsection.4.7}{Single Factor Model for COgasoline}{section.4}% 52
+\BOOKMARK [3][-]{subsubsection.4.7.1}{Model - 1}{subsection.4.7}% 53
+\BOOKMARK [3][-]{subsubsection.4.7.2}{Model - 2}{subsection.4.7}% 54
+\BOOKMARK [3][-]{subsubsection.4.7.3}{Model - 3}{subsection.4.7}% 55
+\BOOKMARK [3][-]{subsubsection.4.7.4}{Model - 4}{subsection.4.7}% 56
+\BOOKMARK [3][-]{subsubsection.4.7.5}{Model - 5}{subsection.4.7}% 57
+\BOOKMARK [3][-]{subsubsection.4.7.6}{Model - 6}{subsection.4.7}% 58
+\BOOKMARK [3][-]{subsubsection.4.7.7}{Model - 7}{subsection.4.7}% 59
+\BOOKMARK [3][-]{subsubsection.4.7.8}{Model - 8}{subsection.4.7}% 60
+\BOOKMARK [2][-]{subsection.4.8}{Two Factor Model for COgasoline}{section.4}% 61
+\BOOKMARK [2][-]{subsection.4.9}{Single Factor Model for COgold}{section.4}% 62
+\BOOKMARK [3][-]{subsubsection.4.9.1}{Model - 1}{subsection.4.9}% 63
+\BOOKMARK [3][-]{subsubsection.4.9.2}{Model - 2}{subsection.4.9}% 64
+\BOOKMARK [3][-]{subsubsection.4.9.3}{Model - 3}{subsection.4.9}% 65
+\BOOKMARK [3][-]{subsubsection.4.9.4}{Model - 4}{subsection.4.9}% 66
+\BOOKMARK [3][-]{subsubsection.4.9.5}{Model - 5}{subsection.4.9}% 67
+\BOOKMARK [3][-]{subsubsection.4.9.6}{Model - 6}{subsection.4.9}% 68
+\BOOKMARK [2][-]{subsection.4.10}{Two Factor Model for COgold}{section.4}% 69
+\BOOKMARK [2][-]{subsection.4.11}{Single Factor Model for COsilver}{section.4}% 70
+\BOOKMARK [3][-]{subsubsection.4.11.1}{Model - 1}{subsection.4.11}% 71
+\BOOKMARK [3][-]{subsubsection.4.11.2}{Model - 2}{subsection.4.11}% 72
+\BOOKMARK [2][-]{subsection.4.12}{Two Factor Model for COsilver}{section.4}% 73
+\BOOKMARK [2][-]{subsection.4.13}{Single Factor Model for COgrains}{section.4}% 74
+\BOOKMARK [3][-]{subsubsection.4.13.1}{Model - 1}{subsection.4.13}% 75
+\BOOKMARK [2][-]{subsection.4.14}{Two Factor Model for COgrains}{section.4}% 76

@@ -1,0 +1,363 @@
+\contentsline {section}{\numberline {1}Asset Classes}{9}{section.1}
+\contentsline {subsection}{\numberline {1.1}Summary of Asset Classes}{9}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}History: $FI_treas_short$}{10}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}History: $FI_treas_long$}{11}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}History: $FI_IG_short$}{12}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}History: $FI_IG_long$}{13}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}History: $FI_IG_mid$}{14}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}History: $FI_HY$}{15}{subsection.1.7}
+\contentsline {subsection}{\numberline {1.8}History: $FI_deved_intl$}{16}{subsection.1.8}
+\contentsline {subsection}{\numberline {1.9}History: $FI_deving_intl$}{17}{subsection.1.9}
+\contentsline {section}{\numberline {2}Clusters Analysis of Asset Classes}{18}{section.2}
+\contentsline {subsection}{\numberline {2.1}Asset Class: $FixedIncome$}{18}{subsection.2.1}
+\contentsline {section}{\numberline {3}PCA for Clusters}{19}{section.3}
+\contentsline {subsection}{\numberline {3.1}Cluster: $FI_treas_short$}{19}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Cluster: $FI_treas_long$}{21}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Cluster: $FI_IG_short$}{23}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Cluster: $FI_IG_long$}{25}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Cluster: $FI_IG_mid$}{27}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Cluster: $FI_HY$}{29}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Cluster: $FI_deved_intl$}{31}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Cluster: $FI_deving_intl$}{33}{subsection.3.8}
+\contentsline {section}{\numberline {4}Variable Selection}{35}{section.4}
+\contentsline {subsection}{\numberline {4.1}Single Factor Model for FI_treas_short}{36}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Model - 1}{37}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Model - 2}{38}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}Model - 3}{39}{subsubsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.4}Model - 4}{40}{subsubsection.4.1.4}
+\contentsline {subsubsection}{\numberline {4.1.5}Model - 5}{41}{subsubsection.4.1.5}
+\contentsline {subsubsection}{\numberline {4.1.6}Model - 6}{42}{subsubsection.4.1.6}
+\contentsline {subsubsection}{\numberline {4.1.7}Model - 7}{43}{subsubsection.4.1.7}
+\contentsline {subsubsection}{\numberline {4.1.8}Model - 8}{44}{subsubsection.4.1.8}
+\contentsline {subsubsection}{\numberline {4.1.9}Model - 9}{45}{subsubsection.4.1.9}
+\contentsline {subsubsection}{\numberline {4.1.10}Model - 10}{46}{subsubsection.4.1.10}
+\contentsline {subsubsection}{\numberline {4.1.11}Model - 11}{47}{subsubsection.4.1.11}
+\contentsline {subsubsection}{\numberline {4.1.12}Model - 12}{48}{subsubsection.4.1.12}
+\contentsline {subsubsection}{\numberline {4.1.13}Model - 13}{49}{subsubsection.4.1.13}
+\contentsline {subsubsection}{\numberline {4.1.14}Model - 14}{50}{subsubsection.4.1.14}
+\contentsline {subsection}{\numberline {4.2}Two Factor Model for FI_treas_short}{51}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Model - 1}{54}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Model - 2}{56}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Model - 3}{58}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}Model - 4}{60}{subsubsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.5}Model - 5}{62}{subsubsection.4.2.5}
+\contentsline {subsubsection}{\numberline {4.2.6}Model - 6}{64}{subsubsection.4.2.6}
+\contentsline {subsubsection}{\numberline {4.2.7}Model - 7}{66}{subsubsection.4.2.7}
+\contentsline {subsubsection}{\numberline {4.2.8}Model - 8}{68}{subsubsection.4.2.8}
+\contentsline {subsubsection}{\numberline {4.2.9}Model - 9}{70}{subsubsection.4.2.9}
+\contentsline {subsubsection}{\numberline {4.2.10}Model - 10}{72}{subsubsection.4.2.10}
+\contentsline {subsubsection}{\numberline {4.2.11}Model - 11}{74}{subsubsection.4.2.11}
+\contentsline {subsubsection}{\numberline {4.2.12}Model - 12}{76}{subsubsection.4.2.12}
+\contentsline {subsubsection}{\numberline {4.2.13}Model - 13}{78}{subsubsection.4.2.13}
+\contentsline {subsubsection}{\numberline {4.2.14}Model - 14}{80}{subsubsection.4.2.14}
+\contentsline {subsubsection}{\numberline {4.2.15}Model - 15}{82}{subsubsection.4.2.15}
+\contentsline {subsubsection}{\numberline {4.2.16}Model - 16}{84}{subsubsection.4.2.16}
+\contentsline {subsubsection}{\numberline {4.2.17}Model - 17}{86}{subsubsection.4.2.17}
+\contentsline {subsubsection}{\numberline {4.2.18}Model - 18}{88}{subsubsection.4.2.18}
+\contentsline {subsubsection}{\numberline {4.2.19}Model - 19}{90}{subsubsection.4.2.19}
+\contentsline {subsubsection}{\numberline {4.2.20}Model - 20}{92}{subsubsection.4.2.20}
+\contentsline {subsubsection}{\numberline {4.2.21}Model - 21}{94}{subsubsection.4.2.21}
+\contentsline {subsubsection}{\numberline {4.2.22}Model - 22}{96}{subsubsection.4.2.22}
+\contentsline {subsubsection}{\numberline {4.2.23}Model - 23}{98}{subsubsection.4.2.23}
+\contentsline {subsubsection}{\numberline {4.2.24}Model - 24}{100}{subsubsection.4.2.24}
+\contentsline {subsubsection}{\numberline {4.2.25}Model - 25}{102}{subsubsection.4.2.25}
+\contentsline {subsubsection}{\numberline {4.2.26}Model - 26}{104}{subsubsection.4.2.26}
+\contentsline {subsubsection}{\numberline {4.2.27}Model - 27}{106}{subsubsection.4.2.27}
+\contentsline {subsubsection}{\numberline {4.2.28}Model - 28}{108}{subsubsection.4.2.28}
+\contentsline {subsubsection}{\numberline {4.2.29}Model - 29}{110}{subsubsection.4.2.29}
+\contentsline {subsubsection}{\numberline {4.2.30}Model - 30}{112}{subsubsection.4.2.30}
+\contentsline {subsection}{\numberline {4.3}Single Factor Model for FI_treas_long}{114}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Model - 1}{115}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Model - 2}{116}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}Model - 3}{117}{subsubsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.4}Model - 4}{118}{subsubsection.4.3.4}
+\contentsline {subsubsection}{\numberline {4.3.5}Model - 5}{119}{subsubsection.4.3.5}
+\contentsline {subsubsection}{\numberline {4.3.6}Model - 6}{120}{subsubsection.4.3.6}
+\contentsline {subsubsection}{\numberline {4.3.7}Model - 7}{121}{subsubsection.4.3.7}
+\contentsline {subsubsection}{\numberline {4.3.8}Model - 8}{122}{subsubsection.4.3.8}
+\contentsline {subsubsection}{\numberline {4.3.9}Model - 9}{123}{subsubsection.4.3.9}
+\contentsline {subsubsection}{\numberline {4.3.10}Model - 10}{124}{subsubsection.4.3.10}
+\contentsline {subsection}{\numberline {4.4}Two Factor Model for FI_treas_long}{125}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Model - 1}{128}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Model - 2}{130}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.3}Model - 3}{132}{subsubsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.4}Model - 4}{134}{subsubsection.4.4.4}
+\contentsline {subsubsection}{\numberline {4.4.5}Model - 5}{136}{subsubsection.4.4.5}
+\contentsline {subsubsection}{\numberline {4.4.6}Model - 6}{138}{subsubsection.4.4.6}
+\contentsline {subsubsection}{\numberline {4.4.7}Model - 7}{140}{subsubsection.4.4.7}
+\contentsline {subsubsection}{\numberline {4.4.8}Model - 8}{142}{subsubsection.4.4.8}
+\contentsline {subsubsection}{\numberline {4.4.9}Model - 9}{144}{subsubsection.4.4.9}
+\contentsline {subsubsection}{\numberline {4.4.10}Model - 10}{146}{subsubsection.4.4.10}
+\contentsline {subsubsection}{\numberline {4.4.11}Model - 11}{148}{subsubsection.4.4.11}
+\contentsline {subsubsection}{\numberline {4.4.12}Model - 12}{150}{subsubsection.4.4.12}
+\contentsline {subsubsection}{\numberline {4.4.13}Model - 13}{152}{subsubsection.4.4.13}
+\contentsline {subsubsection}{\numberline {4.4.14}Model - 14}{154}{subsubsection.4.4.14}
+\contentsline {subsubsection}{\numberline {4.4.15}Model - 15}{156}{subsubsection.4.4.15}
+\contentsline {subsubsection}{\numberline {4.4.16}Model - 16}{158}{subsubsection.4.4.16}
+\contentsline {subsubsection}{\numberline {4.4.17}Model - 17}{160}{subsubsection.4.4.17}
+\contentsline {subsubsection}{\numberline {4.4.18}Model - 18}{162}{subsubsection.4.4.18}
+\contentsline {subsubsection}{\numberline {4.4.19}Model - 19}{164}{subsubsection.4.4.19}
+\contentsline {subsubsection}{\numberline {4.4.20}Model - 20}{166}{subsubsection.4.4.20}
+\contentsline {subsubsection}{\numberline {4.4.21}Model - 21}{168}{subsubsection.4.4.21}
+\contentsline {subsubsection}{\numberline {4.4.22}Model - 22}{170}{subsubsection.4.4.22}
+\contentsline {subsubsection}{\numberline {4.4.23}Model - 23}{172}{subsubsection.4.4.23}
+\contentsline {subsubsection}{\numberline {4.4.24}Model - 24}{174}{subsubsection.4.4.24}
+\contentsline {subsubsection}{\numberline {4.4.25}Model - 25}{176}{subsubsection.4.4.25}
+\contentsline {subsubsection}{\numberline {4.4.26}Model - 26}{178}{subsubsection.4.4.26}
+\contentsline {subsubsection}{\numberline {4.4.27}Model - 27}{180}{subsubsection.4.4.27}
+\contentsline {subsubsection}{\numberline {4.4.28}Model - 28}{182}{subsubsection.4.4.28}
+\contentsline {subsubsection}{\numberline {4.4.29}Model - 29}{184}{subsubsection.4.4.29}
+\contentsline {subsubsection}{\numberline {4.4.30}Model - 30}{186}{subsubsection.4.4.30}
+\contentsline {subsection}{\numberline {4.5}Single Factor Model for FI_IG_short}{188}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Model - 1}{189}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Model - 2}{190}{subsubsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.3}Model - 3}{191}{subsubsection.4.5.3}
+\contentsline {subsubsection}{\numberline {4.5.4}Model - 4}{192}{subsubsection.4.5.4}
+\contentsline {subsubsection}{\numberline {4.5.5}Model - 5}{193}{subsubsection.4.5.5}
+\contentsline {subsubsection}{\numberline {4.5.6}Model - 6}{194}{subsubsection.4.5.6}
+\contentsline {subsubsection}{\numberline {4.5.7}Model - 7}{195}{subsubsection.4.5.7}
+\contentsline {subsubsection}{\numberline {4.5.8}Model - 8}{196}{subsubsection.4.5.8}
+\contentsline {subsubsection}{\numberline {4.5.9}Model - 9}{197}{subsubsection.4.5.9}
+\contentsline {subsubsection}{\numberline {4.5.10}Model - 10}{198}{subsubsection.4.5.10}
+\contentsline {subsubsection}{\numberline {4.5.11}Model - 11}{199}{subsubsection.4.5.11}
+\contentsline {subsubsection}{\numberline {4.5.12}Model - 12}{200}{subsubsection.4.5.12}
+\contentsline {subsection}{\numberline {4.6}Two Factor Model for FI_IG_short}{201}{subsection.4.6}
+\contentsline {subsubsection}{\numberline {4.6.1}Model - 1}{204}{subsubsection.4.6.1}
+\contentsline {subsubsection}{\numberline {4.6.2}Model - 2}{206}{subsubsection.4.6.2}
+\contentsline {subsubsection}{\numberline {4.6.3}Model - 3}{208}{subsubsection.4.6.3}
+\contentsline {subsubsection}{\numberline {4.6.4}Model - 4}{210}{subsubsection.4.6.4}
+\contentsline {subsubsection}{\numberline {4.6.5}Model - 5}{212}{subsubsection.4.6.5}
+\contentsline {subsubsection}{\numberline {4.6.6}Model - 6}{214}{subsubsection.4.6.6}
+\contentsline {subsubsection}{\numberline {4.6.7}Model - 7}{216}{subsubsection.4.6.7}
+\contentsline {subsubsection}{\numberline {4.6.8}Model - 8}{218}{subsubsection.4.6.8}
+\contentsline {subsubsection}{\numberline {4.6.9}Model - 9}{220}{subsubsection.4.6.9}
+\contentsline {subsubsection}{\numberline {4.6.10}Model - 10}{222}{subsubsection.4.6.10}
+\contentsline {subsubsection}{\numberline {4.6.11}Model - 11}{224}{subsubsection.4.6.11}
+\contentsline {subsubsection}{\numberline {4.6.12}Model - 12}{226}{subsubsection.4.6.12}
+\contentsline {subsubsection}{\numberline {4.6.13}Model - 13}{228}{subsubsection.4.6.13}
+\contentsline {subsubsection}{\numberline {4.6.14}Model - 14}{230}{subsubsection.4.6.14}
+\contentsline {subsubsection}{\numberline {4.6.15}Model - 15}{232}{subsubsection.4.6.15}
+\contentsline {subsubsection}{\numberline {4.6.16}Model - 16}{234}{subsubsection.4.6.16}
+\contentsline {subsubsection}{\numberline {4.6.17}Model - 17}{236}{subsubsection.4.6.17}
+\contentsline {subsubsection}{\numberline {4.6.18}Model - 18}{238}{subsubsection.4.6.18}
+\contentsline {subsubsection}{\numberline {4.6.19}Model - 19}{240}{subsubsection.4.6.19}
+\contentsline {subsubsection}{\numberline {4.6.20}Model - 20}{242}{subsubsection.4.6.20}
+\contentsline {subsubsection}{\numberline {4.6.21}Model - 21}{244}{subsubsection.4.6.21}
+\contentsline {subsubsection}{\numberline {4.6.22}Model - 22}{246}{subsubsection.4.6.22}
+\contentsline {subsubsection}{\numberline {4.6.23}Model - 23}{248}{subsubsection.4.6.23}
+\contentsline {subsubsection}{\numberline {4.6.24}Model - 24}{250}{subsubsection.4.6.24}
+\contentsline {subsubsection}{\numberline {4.6.25}Model - 25}{252}{subsubsection.4.6.25}
+\contentsline {subsubsection}{\numberline {4.6.26}Model - 26}{254}{subsubsection.4.6.26}
+\contentsline {subsubsection}{\numberline {4.6.27}Model - 27}{256}{subsubsection.4.6.27}
+\contentsline {subsubsection}{\numberline {4.6.28}Model - 28}{258}{subsubsection.4.6.28}
+\contentsline {subsubsection}{\numberline {4.6.29}Model - 29}{260}{subsubsection.4.6.29}
+\contentsline {subsubsection}{\numberline {4.6.30}Model - 30}{262}{subsubsection.4.6.30}
+\contentsline {subsection}{\numberline {4.7}Single Factor Model for FI_IG_long}{264}{subsection.4.7}
+\contentsline {subsubsection}{\numberline {4.7.1}Model - 1}{265}{subsubsection.4.7.1}
+\contentsline {subsubsection}{\numberline {4.7.2}Model - 2}{266}{subsubsection.4.7.2}
+\contentsline {subsubsection}{\numberline {4.7.3}Model - 3}{267}{subsubsection.4.7.3}
+\contentsline {subsubsection}{\numberline {4.7.4}Model - 4}{268}{subsubsection.4.7.4}
+\contentsline {subsubsection}{\numberline {4.7.5}Model - 5}{269}{subsubsection.4.7.5}
+\contentsline {subsubsection}{\numberline {4.7.6}Model - 6}{270}{subsubsection.4.7.6}
+\contentsline {subsubsection}{\numberline {4.7.7}Model - 7}{271}{subsubsection.4.7.7}
+\contentsline {subsubsection}{\numberline {4.7.8}Model - 8}{272}{subsubsection.4.7.8}
+\contentsline {subsubsection}{\numberline {4.7.9}Model - 9}{273}{subsubsection.4.7.9}
+\contentsline {subsubsection}{\numberline {4.7.10}Model - 10}{274}{subsubsection.4.7.10}
+\contentsline {subsection}{\numberline {4.8}Two Factor Model for FI_IG_long}{275}{subsection.4.8}
+\contentsline {subsubsection}{\numberline {4.8.1}Model - 1}{278}{subsubsection.4.8.1}
+\contentsline {subsubsection}{\numberline {4.8.2}Model - 2}{280}{subsubsection.4.8.2}
+\contentsline {subsubsection}{\numberline {4.8.3}Model - 3}{282}{subsubsection.4.8.3}
+\contentsline {subsubsection}{\numberline {4.8.4}Model - 4}{284}{subsubsection.4.8.4}
+\contentsline {subsubsection}{\numberline {4.8.5}Model - 5}{286}{subsubsection.4.8.5}
+\contentsline {subsubsection}{\numberline {4.8.6}Model - 6}{288}{subsubsection.4.8.6}
+\contentsline {subsubsection}{\numberline {4.8.7}Model - 7}{290}{subsubsection.4.8.7}
+\contentsline {subsubsection}{\numberline {4.8.8}Model - 8}{292}{subsubsection.4.8.8}
+\contentsline {subsubsection}{\numberline {4.8.9}Model - 9}{294}{subsubsection.4.8.9}
+\contentsline {subsubsection}{\numberline {4.8.10}Model - 10}{296}{subsubsection.4.8.10}
+\contentsline {subsubsection}{\numberline {4.8.11}Model - 11}{298}{subsubsection.4.8.11}
+\contentsline {subsubsection}{\numberline {4.8.12}Model - 12}{300}{subsubsection.4.8.12}
+\contentsline {subsubsection}{\numberline {4.8.13}Model - 13}{302}{subsubsection.4.8.13}
+\contentsline {subsubsection}{\numberline {4.8.14}Model - 14}{304}{subsubsection.4.8.14}
+\contentsline {subsubsection}{\numberline {4.8.15}Model - 15}{306}{subsubsection.4.8.15}
+\contentsline {subsubsection}{\numberline {4.8.16}Model - 16}{308}{subsubsection.4.8.16}
+\contentsline {subsubsection}{\numberline {4.8.17}Model - 17}{310}{subsubsection.4.8.17}
+\contentsline {subsubsection}{\numberline {4.8.18}Model - 18}{312}{subsubsection.4.8.18}
+\contentsline {subsubsection}{\numberline {4.8.19}Model - 19}{314}{subsubsection.4.8.19}
+\contentsline {subsubsection}{\numberline {4.8.20}Model - 20}{316}{subsubsection.4.8.20}
+\contentsline {subsubsection}{\numberline {4.8.21}Model - 21}{318}{subsubsection.4.8.21}
+\contentsline {subsubsection}{\numberline {4.8.22}Model - 22}{320}{subsubsection.4.8.22}
+\contentsline {subsubsection}{\numberline {4.8.23}Model - 23}{322}{subsubsection.4.8.23}
+\contentsline {subsubsection}{\numberline {4.8.24}Model - 24}{324}{subsubsection.4.8.24}
+\contentsline {subsubsection}{\numberline {4.8.25}Model - 25}{326}{subsubsection.4.8.25}
+\contentsline {subsubsection}{\numberline {4.8.26}Model - 26}{328}{subsubsection.4.8.26}
+\contentsline {subsubsection}{\numberline {4.8.27}Model - 27}{330}{subsubsection.4.8.27}
+\contentsline {subsubsection}{\numberline {4.8.28}Model - 28}{332}{subsubsection.4.8.28}
+\contentsline {subsubsection}{\numberline {4.8.29}Model - 29}{334}{subsubsection.4.8.29}
+\contentsline {subsubsection}{\numberline {4.8.30}Model - 30}{336}{subsubsection.4.8.30}
+\contentsline {subsection}{\numberline {4.9}Single Factor Model for FI_IG_mid}{338}{subsection.4.9}
+\contentsline {subsubsection}{\numberline {4.9.1}Model - 1}{339}{subsubsection.4.9.1}
+\contentsline {subsubsection}{\numberline {4.9.2}Model - 2}{340}{subsubsection.4.9.2}
+\contentsline {subsubsection}{\numberline {4.9.3}Model - 3}{341}{subsubsection.4.9.3}
+\contentsline {subsubsection}{\numberline {4.9.4}Model - 4}{342}{subsubsection.4.9.4}
+\contentsline {subsubsection}{\numberline {4.9.5}Model - 5}{343}{subsubsection.4.9.5}
+\contentsline {subsubsection}{\numberline {4.9.6}Model - 6}{344}{subsubsection.4.9.6}
+\contentsline {subsubsection}{\numberline {4.9.7}Model - 7}{345}{subsubsection.4.9.7}
+\contentsline {subsubsection}{\numberline {4.9.8}Model - 8}{346}{subsubsection.4.9.8}
+\contentsline {subsection}{\numberline {4.10}Two Factor Model for FI_IG_mid}{347}{subsection.4.10}
+\contentsline {subsubsection}{\numberline {4.10.1}Model - 1}{350}{subsubsection.4.10.1}
+\contentsline {subsubsection}{\numberline {4.10.2}Model - 2}{352}{subsubsection.4.10.2}
+\contentsline {subsubsection}{\numberline {4.10.3}Model - 3}{354}{subsubsection.4.10.3}
+\contentsline {subsubsection}{\numberline {4.10.4}Model - 4}{356}{subsubsection.4.10.4}
+\contentsline {subsubsection}{\numberline {4.10.5}Model - 5}{358}{subsubsection.4.10.5}
+\contentsline {subsubsection}{\numberline {4.10.6}Model - 6}{360}{subsubsection.4.10.6}
+\contentsline {subsubsection}{\numberline {4.10.7}Model - 7}{362}{subsubsection.4.10.7}
+\contentsline {subsubsection}{\numberline {4.10.8}Model - 8}{364}{subsubsection.4.10.8}
+\contentsline {subsubsection}{\numberline {4.10.9}Model - 9}{366}{subsubsection.4.10.9}
+\contentsline {subsubsection}{\numberline {4.10.10}Model - 10}{368}{subsubsection.4.10.10}
+\contentsline {subsubsection}{\numberline {4.10.11}Model - 11}{370}{subsubsection.4.10.11}
+\contentsline {subsubsection}{\numberline {4.10.12}Model - 12}{372}{subsubsection.4.10.12}
+\contentsline {subsubsection}{\numberline {4.10.13}Model - 13}{374}{subsubsection.4.10.13}
+\contentsline {subsubsection}{\numberline {4.10.14}Model - 14}{376}{subsubsection.4.10.14}
+\contentsline {subsubsection}{\numberline {4.10.15}Model - 15}{378}{subsubsection.4.10.15}
+\contentsline {subsubsection}{\numberline {4.10.16}Model - 16}{380}{subsubsection.4.10.16}
+\contentsline {subsubsection}{\numberline {4.10.17}Model - 17}{382}{subsubsection.4.10.17}
+\contentsline {subsubsection}{\numberline {4.10.18}Model - 18}{384}{subsubsection.4.10.18}
+\contentsline {subsubsection}{\numberline {4.10.19}Model - 19}{386}{subsubsection.4.10.19}
+\contentsline {subsubsection}{\numberline {4.10.20}Model - 20}{388}{subsubsection.4.10.20}
+\contentsline {subsubsection}{\numberline {4.10.21}Model - 21}{390}{subsubsection.4.10.21}
+\contentsline {subsubsection}{\numberline {4.10.22}Model - 22}{392}{subsubsection.4.10.22}
+\contentsline {subsubsection}{\numberline {4.10.23}Model - 23}{394}{subsubsection.4.10.23}
+\contentsline {subsubsection}{\numberline {4.10.24}Model - 24}{396}{subsubsection.4.10.24}
+\contentsline {subsubsection}{\numberline {4.10.25}Model - 25}{398}{subsubsection.4.10.25}
+\contentsline {subsubsection}{\numberline {4.10.26}Model - 26}{400}{subsubsection.4.10.26}
+\contentsline {subsubsection}{\numberline {4.10.27}Model - 27}{402}{subsubsection.4.10.27}
+\contentsline {subsubsection}{\numberline {4.10.28}Model - 28}{404}{subsubsection.4.10.28}
+\contentsline {subsubsection}{\numberline {4.10.29}Model - 29}{406}{subsubsection.4.10.29}
+\contentsline {subsubsection}{\numberline {4.10.30}Model - 30}{408}{subsubsection.4.10.30}
+\contentsline {subsection}{\numberline {4.11}Single Factor Model for FI_HY}{410}{subsection.4.11}
+\contentsline {subsubsection}{\numberline {4.11.1}Model - 1}{411}{subsubsection.4.11.1}
+\contentsline {subsubsection}{\numberline {4.11.2}Model - 2}{412}{subsubsection.4.11.2}
+\contentsline {subsubsection}{\numberline {4.11.3}Model - 3}{413}{subsubsection.4.11.3}
+\contentsline {subsubsection}{\numberline {4.11.4}Model - 4}{414}{subsubsection.4.11.4}
+\contentsline {subsubsection}{\numberline {4.11.5}Model - 5}{415}{subsubsection.4.11.5}
+\contentsline {subsubsection}{\numberline {4.11.6}Model - 6}{416}{subsubsection.4.11.6}
+\contentsline {subsubsection}{\numberline {4.11.7}Model - 7}{417}{subsubsection.4.11.7}
+\contentsline {subsubsection}{\numberline {4.11.8}Model - 8}{418}{subsubsection.4.11.8}
+\contentsline {subsubsection}{\numberline {4.11.9}Model - 9}{419}{subsubsection.4.11.9}
+\contentsline {subsubsection}{\numberline {4.11.10}Model - 10}{420}{subsubsection.4.11.10}
+\contentsline {subsubsection}{\numberline {4.11.11}Model - 11}{421}{subsubsection.4.11.11}
+\contentsline {subsubsection}{\numberline {4.11.12}Model - 12}{422}{subsubsection.4.11.12}
+\contentsline {subsubsection}{\numberline {4.11.13}Model - 13}{423}{subsubsection.4.11.13}
+\contentsline {subsubsection}{\numberline {4.11.14}Model - 14}{424}{subsubsection.4.11.14}
+\contentsline {subsubsection}{\numberline {4.11.15}Model - 15}{425}{subsubsection.4.11.15}
+\contentsline {subsubsection}{\numberline {4.11.16}Model - 16}{426}{subsubsection.4.11.16}
+\contentsline {subsubsection}{\numberline {4.11.17}Model - 17}{427}{subsubsection.4.11.17}
+\contentsline {subsection}{\numberline {4.12}Two Factor Model for FI_HY}{428}{subsection.4.12}
+\contentsline {subsubsection}{\numberline {4.12.1}Model - 1}{431}{subsubsection.4.12.1}
+\contentsline {subsubsection}{\numberline {4.12.2}Model - 2}{433}{subsubsection.4.12.2}
+\contentsline {subsubsection}{\numberline {4.12.3}Model - 3}{435}{subsubsection.4.12.3}
+\contentsline {subsubsection}{\numberline {4.12.4}Model - 4}{437}{subsubsection.4.12.4}
+\contentsline {subsubsection}{\numberline {4.12.5}Model - 5}{439}{subsubsection.4.12.5}
+\contentsline {subsubsection}{\numberline {4.12.6}Model - 6}{441}{subsubsection.4.12.6}
+\contentsline {subsubsection}{\numberline {4.12.7}Model - 7}{443}{subsubsection.4.12.7}
+\contentsline {subsubsection}{\numberline {4.12.8}Model - 8}{445}{subsubsection.4.12.8}
+\contentsline {subsubsection}{\numberline {4.12.9}Model - 9}{447}{subsubsection.4.12.9}
+\contentsline {subsubsection}{\numberline {4.12.10}Model - 10}{449}{subsubsection.4.12.10}
+\contentsline {subsubsection}{\numberline {4.12.11}Model - 11}{451}{subsubsection.4.12.11}
+\contentsline {subsubsection}{\numberline {4.12.12}Model - 12}{453}{subsubsection.4.12.12}
+\contentsline {subsubsection}{\numberline {4.12.13}Model - 13}{455}{subsubsection.4.12.13}
+\contentsline {subsubsection}{\numberline {4.12.14}Model - 14}{457}{subsubsection.4.12.14}
+\contentsline {subsubsection}{\numberline {4.12.15}Model - 15}{459}{subsubsection.4.12.15}
+\contentsline {subsubsection}{\numberline {4.12.16}Model - 16}{461}{subsubsection.4.12.16}
+\contentsline {subsubsection}{\numberline {4.12.17}Model - 17}{463}{subsubsection.4.12.17}
+\contentsline {subsubsection}{\numberline {4.12.18}Model - 18}{465}{subsubsection.4.12.18}
+\contentsline {subsubsection}{\numberline {4.12.19}Model - 19}{467}{subsubsection.4.12.19}
+\contentsline {subsubsection}{\numberline {4.12.20}Model - 20}{469}{subsubsection.4.12.20}
+\contentsline {subsubsection}{\numberline {4.12.21}Model - 21}{471}{subsubsection.4.12.21}
+\contentsline {subsubsection}{\numberline {4.12.22}Model - 22}{473}{subsubsection.4.12.22}
+\contentsline {subsubsection}{\numberline {4.12.23}Model - 23}{475}{subsubsection.4.12.23}
+\contentsline {subsubsection}{\numberline {4.12.24}Model - 24}{477}{subsubsection.4.12.24}
+\contentsline {subsubsection}{\numberline {4.12.25}Model - 25}{479}{subsubsection.4.12.25}
+\contentsline {subsubsection}{\numberline {4.12.26}Model - 26}{481}{subsubsection.4.12.26}
+\contentsline {subsubsection}{\numberline {4.12.27}Model - 27}{483}{subsubsection.4.12.27}
+\contentsline {subsubsection}{\numberline {4.12.28}Model - 28}{485}{subsubsection.4.12.28}
+\contentsline {subsubsection}{\numberline {4.12.29}Model - 29}{487}{subsubsection.4.12.29}
+\contentsline {subsubsection}{\numberline {4.12.30}Model - 30}{489}{subsubsection.4.12.30}
+\contentsline {subsection}{\numberline {4.13}Single Factor Model for FI_deved_intl}{491}{subsection.4.13}
+\contentsline {subsubsection}{\numberline {4.13.1}Model - 1}{492}{subsubsection.4.13.1}
+\contentsline {subsubsection}{\numberline {4.13.2}Model - 2}{493}{subsubsection.4.13.2}
+\contentsline {subsubsection}{\numberline {4.13.3}Model - 3}{494}{subsubsection.4.13.3}
+\contentsline {subsubsection}{\numberline {4.13.4}Model - 4}{495}{subsubsection.4.13.4}
+\contentsline {subsubsection}{\numberline {4.13.5}Model - 5}{496}{subsubsection.4.13.5}
+\contentsline {subsubsection}{\numberline {4.13.6}Model - 6}{497}{subsubsection.4.13.6}
+\contentsline {subsubsection}{\numberline {4.13.7}Model - 7}{498}{subsubsection.4.13.7}
+\contentsline {subsubsection}{\numberline {4.13.8}Model - 8}{499}{subsubsection.4.13.8}
+\contentsline {subsubsection}{\numberline {4.13.9}Model - 9}{500}{subsubsection.4.13.9}
+\contentsline {subsubsection}{\numberline {4.13.10}Model - 10}{501}{subsubsection.4.13.10}
+\contentsline {subsubsection}{\numberline {4.13.11}Model - 11}{502}{subsubsection.4.13.11}
+\contentsline {subsubsection}{\numberline {4.13.12}Model - 12}{503}{subsubsection.4.13.12}
+\contentsline {subsection}{\numberline {4.14}Two Factor Model for FI_deved_intl}{504}{subsection.4.14}
+\contentsline {subsubsection}{\numberline {4.14.1}Model - 1}{507}{subsubsection.4.14.1}
+\contentsline {subsubsection}{\numberline {4.14.2}Model - 2}{509}{subsubsection.4.14.2}
+\contentsline {subsubsection}{\numberline {4.14.3}Model - 3}{511}{subsubsection.4.14.3}
+\contentsline {subsubsection}{\numberline {4.14.4}Model - 4}{513}{subsubsection.4.14.4}
+\contentsline {subsubsection}{\numberline {4.14.5}Model - 5}{515}{subsubsection.4.14.5}
+\contentsline {subsubsection}{\numberline {4.14.6}Model - 6}{517}{subsubsection.4.14.6}
+\contentsline {subsubsection}{\numberline {4.14.7}Model - 7}{519}{subsubsection.4.14.7}
+\contentsline {subsubsection}{\numberline {4.14.8}Model - 8}{521}{subsubsection.4.14.8}
+\contentsline {subsubsection}{\numberline {4.14.9}Model - 9}{523}{subsubsection.4.14.9}
+\contentsline {subsubsection}{\numberline {4.14.10}Model - 10}{525}{subsubsection.4.14.10}
+\contentsline {subsubsection}{\numberline {4.14.11}Model - 11}{527}{subsubsection.4.14.11}
+\contentsline {subsubsection}{\numberline {4.14.12}Model - 12}{529}{subsubsection.4.14.12}
+\contentsline {subsubsection}{\numberline {4.14.13}Model - 13}{531}{subsubsection.4.14.13}
+\contentsline {subsubsection}{\numberline {4.14.14}Model - 14}{533}{subsubsection.4.14.14}
+\contentsline {subsubsection}{\numberline {4.14.15}Model - 15}{535}{subsubsection.4.14.15}
+\contentsline {subsubsection}{\numberline {4.14.16}Model - 16}{537}{subsubsection.4.14.16}
+\contentsline {subsubsection}{\numberline {4.14.17}Model - 17}{539}{subsubsection.4.14.17}
+\contentsline {subsubsection}{\numberline {4.14.18}Model - 18}{541}{subsubsection.4.14.18}
+\contentsline {subsubsection}{\numberline {4.14.19}Model - 19}{543}{subsubsection.4.14.19}
+\contentsline {subsubsection}{\numberline {4.14.20}Model - 20}{545}{subsubsection.4.14.20}
+\contentsline {subsubsection}{\numberline {4.14.21}Model - 21}{547}{subsubsection.4.14.21}
+\contentsline {subsubsection}{\numberline {4.14.22}Model - 22}{549}{subsubsection.4.14.22}
+\contentsline {subsubsection}{\numberline {4.14.23}Model - 23}{551}{subsubsection.4.14.23}
+\contentsline {subsubsection}{\numberline {4.14.24}Model - 24}{553}{subsubsection.4.14.24}
+\contentsline {subsubsection}{\numberline {4.14.25}Model - 25}{555}{subsubsection.4.14.25}
+\contentsline {subsubsection}{\numberline {4.14.26}Model - 26}{557}{subsubsection.4.14.26}
+\contentsline {subsubsection}{\numberline {4.14.27}Model - 27}{559}{subsubsection.4.14.27}
+\contentsline {subsubsection}{\numberline {4.14.28}Model - 28}{561}{subsubsection.4.14.28}
+\contentsline {subsubsection}{\numberline {4.14.29}Model - 29}{563}{subsubsection.4.14.29}
+\contentsline {subsubsection}{\numberline {4.14.30}Model - 30}{565}{subsubsection.4.14.30}
+\contentsline {subsection}{\numberline {4.15}Single Factor Model for FI_deving_intl}{567}{subsection.4.15}
+\contentsline {subsubsection}{\numberline {4.15.1}Model - 1}{568}{subsubsection.4.15.1}
+\contentsline {subsubsection}{\numberline {4.15.2}Model - 2}{569}{subsubsection.4.15.2}
+\contentsline {subsection}{\numberline {4.16}Two Factor Model for FI_deving_intl}{570}{subsection.4.16}
+\contentsline {subsubsection}{\numberline {4.16.1}Model - 1}{573}{subsubsection.4.16.1}
+\contentsline {subsubsection}{\numberline {4.16.2}Model - 2}{575}{subsubsection.4.16.2}
+\contentsline {subsubsection}{\numberline {4.16.3}Model - 3}{577}{subsubsection.4.16.3}
+\contentsline {subsubsection}{\numberline {4.16.4}Model - 4}{579}{subsubsection.4.16.4}
+\contentsline {subsubsection}{\numberline {4.16.5}Model - 5}{581}{subsubsection.4.16.5}
+\contentsline {subsubsection}{\numberline {4.16.6}Model - 6}{583}{subsubsection.4.16.6}
+\contentsline {subsubsection}{\numberline {4.16.7}Model - 7}{585}{subsubsection.4.16.7}
+\contentsline {subsubsection}{\numberline {4.16.8}Model - 8}{587}{subsubsection.4.16.8}
+\contentsline {subsubsection}{\numberline {4.16.9}Model - 9}{589}{subsubsection.4.16.9}
+\contentsline {subsubsection}{\numberline {4.16.10}Model - 10}{591}{subsubsection.4.16.10}
+\contentsline {subsubsection}{\numberline {4.16.11}Model - 11}{593}{subsubsection.4.16.11}
+\contentsline {subsubsection}{\numberline {4.16.12}Model - 12}{595}{subsubsection.4.16.12}
+\contentsline {subsubsection}{\numberline {4.16.13}Model - 13}{597}{subsubsection.4.16.13}
+\contentsline {subsubsection}{\numberline {4.16.14}Model - 14}{599}{subsubsection.4.16.14}
+\contentsline {subsubsection}{\numberline {4.16.15}Model - 15}{601}{subsubsection.4.16.15}
+\contentsline {subsubsection}{\numberline {4.16.16}Model - 16}{603}{subsubsection.4.16.16}
+\contentsline {subsubsection}{\numberline {4.16.17}Model - 17}{605}{subsubsection.4.16.17}
+\contentsline {subsubsection}{\numberline {4.16.18}Model - 18}{607}{subsubsection.4.16.18}
+\contentsline {subsubsection}{\numberline {4.16.19}Model - 19}{609}{subsubsection.4.16.19}
+\contentsline {subsubsection}{\numberline {4.16.20}Model - 20}{611}{subsubsection.4.16.20}
+\contentsline {subsubsection}{\numberline {4.16.21}Model - 21}{613}{subsubsection.4.16.21}
+\contentsline {subsubsection}{\numberline {4.16.22}Model - 22}{615}{subsubsection.4.16.22}
+\contentsline {subsubsection}{\numberline {4.16.23}Model - 23}{617}{subsubsection.4.16.23}
+\contentsline {subsubsection}{\numberline {4.16.24}Model - 24}{619}{subsubsection.4.16.24}
+\contentsline {subsubsection}{\numberline {4.16.25}Model - 25}{621}{subsubsection.4.16.25}
+\contentsline {subsubsection}{\numberline {4.16.26}Model - 26}{623}{subsubsection.4.16.26}
+\contentsline {subsubsection}{\numberline {4.16.27}Model - 27}{625}{subsubsection.4.16.27}
+\contentsline {subsubsection}{\numberline {4.16.28}Model - 28}{627}{subsubsection.4.16.28}
+\contentsline {subsubsection}{\numberline {4.16.29}Model - 29}{629}{subsubsection.4.16.29}
+\contentsline {subsubsection}{\numberline {4.16.30}Model - 30}{631}{subsubsection.4.16.30}

@@ -1,0 +1,226 @@
+\contentsline {section}{\numberline {1}Asset Classes}{7}{section.1}
+\contentsline {subsection}{\numberline {1.1}Summary of Asset Classes}{7}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}History: $CO_oil1$}{8}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}History: $CO_oil2$}{9}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}History: $CO_nat_gas$}{10}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}History: $CO_gasoline$}{11}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}History: $CO_gold$}{12}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}History: $CO_silver$}{13}{subsection.1.7}
+\contentsline {subsection}{\numberline {1.8}History: $CO_grains$}{14}{subsection.1.8}
+\contentsline {section}{\numberline {2}Clusters Analysis of Asset Classes}{15}{section.2}
+\contentsline {subsection}{\numberline {2.1}Asset Class: $Commodity$}{15}{subsection.2.1}
+\contentsline {section}{\numberline {3}PCA for Clusters}{16}{section.3}
+\contentsline {subsection}{\numberline {3.1}Cluster: $CO_oil1$}{16}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Cluster: $CO_oil2$}{18}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Cluster: $CO_nat_gas$}{20}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Cluster: $CO_gasoline$}{22}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Cluster: $CO_gold$}{24}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Cluster: $CO_silver$}{26}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Cluster: $CO_grains$}{28}{subsection.3.7}
+\contentsline {section}{\numberline {4}Variable Selection}{30}{section.4}
+\contentsline {subsection}{\numberline {4.1}Single Factor Model for CO_oil1}{31}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Model - 1}{32}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Model - 2}{33}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}Model - 3}{34}{subsubsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.4}Model - 4}{35}{subsubsection.4.1.4}
+\contentsline {subsubsection}{\numberline {4.1.5}Model - 5}{36}{subsubsection.4.1.5}
+\contentsline {subsubsection}{\numberline {4.1.6}Model - 6}{37}{subsubsection.4.1.6}
+\contentsline {subsubsection}{\numberline {4.1.7}Model - 7}{38}{subsubsection.4.1.7}
+\contentsline {subsubsection}{\numberline {4.1.8}Model - 8}{39}{subsubsection.4.1.8}
+\contentsline {subsubsection}{\numberline {4.1.9}Model - 9}{40}{subsubsection.4.1.9}
+\contentsline {subsubsection}{\numberline {4.1.10}Model - 10}{41}{subsubsection.4.1.10}
+\contentsline {subsubsection}{\numberline {4.1.11}Model - 11}{42}{subsubsection.4.1.11}
+\contentsline {subsubsection}{\numberline {4.1.12}Model - 12}{43}{subsubsection.4.1.12}
+\contentsline {subsection}{\numberline {4.2}Two Factor Model for CO_oil1}{44}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Model - 1}{47}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Model - 2}{49}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Model - 3}{51}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}Model - 4}{53}{subsubsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.5}Model - 5}{55}{subsubsection.4.2.5}
+\contentsline {subsubsection}{\numberline {4.2.6}Model - 6}{57}{subsubsection.4.2.6}
+\contentsline {subsubsection}{\numberline {4.2.7}Model - 7}{59}{subsubsection.4.2.7}
+\contentsline {subsubsection}{\numberline {4.2.8}Model - 8}{61}{subsubsection.4.2.8}
+\contentsline {subsubsection}{\numberline {4.2.9}Model - 9}{63}{subsubsection.4.2.9}
+\contentsline {subsubsection}{\numberline {4.2.10}Model - 10}{65}{subsubsection.4.2.10}
+\contentsline {subsubsection}{\numberline {4.2.11}Model - 11}{67}{subsubsection.4.2.11}
+\contentsline {subsubsection}{\numberline {4.2.12}Model - 12}{69}{subsubsection.4.2.12}
+\contentsline {subsubsection}{\numberline {4.2.13}Model - 13}{71}{subsubsection.4.2.13}
+\contentsline {subsubsection}{\numberline {4.2.14}Model - 14}{73}{subsubsection.4.2.14}
+\contentsline {subsubsection}{\numberline {4.2.15}Model - 15}{75}{subsubsection.4.2.15}
+\contentsline {subsubsection}{\numberline {4.2.16}Model - 16}{77}{subsubsection.4.2.16}
+\contentsline {subsubsection}{\numberline {4.2.17}Model - 17}{79}{subsubsection.4.2.17}
+\contentsline {subsubsection}{\numberline {4.2.18}Model - 18}{81}{subsubsection.4.2.18}
+\contentsline {subsubsection}{\numberline {4.2.19}Model - 19}{83}{subsubsection.4.2.19}
+\contentsline {subsubsection}{\numberline {4.2.20}Model - 20}{85}{subsubsection.4.2.20}
+\contentsline {subsubsection}{\numberline {4.2.21}Model - 21}{87}{subsubsection.4.2.21}
+\contentsline {subsubsection}{\numberline {4.2.22}Model - 22}{89}{subsubsection.4.2.22}
+\contentsline {subsubsection}{\numberline {4.2.23}Model - 23}{91}{subsubsection.4.2.23}
+\contentsline {subsubsection}{\numberline {4.2.24}Model - 24}{93}{subsubsection.4.2.24}
+\contentsline {subsubsection}{\numberline {4.2.25}Model - 25}{95}{subsubsection.4.2.25}
+\contentsline {subsubsection}{\numberline {4.2.26}Model - 26}{97}{subsubsection.4.2.26}
+\contentsline {subsubsection}{\numberline {4.2.27}Model - 27}{99}{subsubsection.4.2.27}
+\contentsline {subsubsection}{\numberline {4.2.28}Model - 28}{101}{subsubsection.4.2.28}
+\contentsline {subsubsection}{\numberline {4.2.29}Model - 29}{103}{subsubsection.4.2.29}
+\contentsline {subsubsection}{\numberline {4.2.30}Model - 30}{105}{subsubsection.4.2.30}
+\contentsline {subsection}{\numberline {4.3}Single Factor Model for CO_oil2}{107}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Model - 1}{108}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Model - 2}{109}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}Model - 3}{110}{subsubsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.4}Model - 4}{111}{subsubsection.4.3.4}
+\contentsline {subsubsection}{\numberline {4.3.5}Model - 5}{112}{subsubsection.4.3.5}
+\contentsline {subsubsection}{\numberline {4.3.6}Model - 6}{113}{subsubsection.4.3.6}
+\contentsline {subsubsection}{\numberline {4.3.7}Model - 7}{114}{subsubsection.4.3.7}
+\contentsline {subsubsection}{\numberline {4.3.8}Model - 8}{115}{subsubsection.4.3.8}
+\contentsline {subsubsection}{\numberline {4.3.9}Model - 9}{116}{subsubsection.4.3.9}
+\contentsline {subsubsection}{\numberline {4.3.10}Model - 10}{117}{subsubsection.4.3.10}
+\contentsline {subsection}{\numberline {4.4}Two Factor Model for CO_oil2}{118}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Model - 1}{121}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Model - 2}{123}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.3}Model - 3}{125}{subsubsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.4}Model - 4}{127}{subsubsection.4.4.4}
+\contentsline {subsubsection}{\numberline {4.4.5}Model - 5}{129}{subsubsection.4.4.5}
+\contentsline {subsubsection}{\numberline {4.4.6}Model - 6}{131}{subsubsection.4.4.6}
+\contentsline {subsubsection}{\numberline {4.4.7}Model - 7}{133}{subsubsection.4.4.7}
+\contentsline {subsubsection}{\numberline {4.4.8}Model - 8}{135}{subsubsection.4.4.8}
+\contentsline {subsubsection}{\numberline {4.4.9}Model - 9}{137}{subsubsection.4.4.9}
+\contentsline {subsubsection}{\numberline {4.4.10}Model - 10}{139}{subsubsection.4.4.10}
+\contentsline {subsubsection}{\numberline {4.4.11}Model - 11}{141}{subsubsection.4.4.11}
+\contentsline {subsubsection}{\numberline {4.4.12}Model - 12}{143}{subsubsection.4.4.12}
+\contentsline {subsubsection}{\numberline {4.4.13}Model - 13}{145}{subsubsection.4.4.13}
+\contentsline {subsubsection}{\numberline {4.4.14}Model - 14}{147}{subsubsection.4.4.14}
+\contentsline {subsubsection}{\numberline {4.4.15}Model - 15}{149}{subsubsection.4.4.15}
+\contentsline {subsubsection}{\numberline {4.4.16}Model - 16}{151}{subsubsection.4.4.16}
+\contentsline {subsubsection}{\numberline {4.4.17}Model - 17}{153}{subsubsection.4.4.17}
+\contentsline {subsubsection}{\numberline {4.4.18}Model - 18}{155}{subsubsection.4.4.18}
+\contentsline {subsubsection}{\numberline {4.4.19}Model - 19}{157}{subsubsection.4.4.19}
+\contentsline {subsubsection}{\numberline {4.4.20}Model - 20}{159}{subsubsection.4.4.20}
+\contentsline {subsubsection}{\numberline {4.4.21}Model - 21}{161}{subsubsection.4.4.21}
+\contentsline {subsubsection}{\numberline {4.4.22}Model - 22}{163}{subsubsection.4.4.22}
+\contentsline {subsubsection}{\numberline {4.4.23}Model - 23}{165}{subsubsection.4.4.23}
+\contentsline {subsubsection}{\numberline {4.4.24}Model - 24}{167}{subsubsection.4.4.24}
+\contentsline {subsubsection}{\numberline {4.4.25}Model - 25}{169}{subsubsection.4.4.25}
+\contentsline {subsubsection}{\numberline {4.4.26}Model - 26}{171}{subsubsection.4.4.26}
+\contentsline {subsubsection}{\numberline {4.4.27}Model - 27}{173}{subsubsection.4.4.27}
+\contentsline {subsubsection}{\numberline {4.4.28}Model - 28}{175}{subsubsection.4.4.28}
+\contentsline {subsubsection}{\numberline {4.4.29}Model - 29}{177}{subsubsection.4.4.29}
+\contentsline {subsubsection}{\numberline {4.4.30}Model - 30}{179}{subsubsection.4.4.30}
+\contentsline {subsection}{\numberline {4.5}Single Factor Model for CO_nat_gas}{181}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Model - 1}{182}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Model - 2}{183}{subsubsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.3}Model - 3}{184}{subsubsection.4.5.3}
+\contentsline {subsection}{\numberline {4.6}Two Factor Model for CO_nat_gas}{185}{subsection.4.6}
+\contentsline {subsubsection}{\numberline {4.6.1}Model - 1}{188}{subsubsection.4.6.1}
+\contentsline {subsubsection}{\numberline {4.6.2}Model - 2}{190}{subsubsection.4.6.2}
+\contentsline {subsubsection}{\numberline {4.6.3}Model - 3}{192}{subsubsection.4.6.3}
+\contentsline {subsubsection}{\numberline {4.6.4}Model - 4}{194}{subsubsection.4.6.4}
+\contentsline {subsubsection}{\numberline {4.6.5}Model - 5}{196}{subsubsection.4.6.5}
+\contentsline {subsubsection}{\numberline {4.6.6}Model - 6}{198}{subsubsection.4.6.6}
+\contentsline {subsubsection}{\numberline {4.6.7}Model - 7}{200}{subsubsection.4.6.7}
+\contentsline {subsubsection}{\numberline {4.6.8}Model - 8}{202}{subsubsection.4.6.8}
+\contentsline {subsubsection}{\numberline {4.6.9}Model - 9}{204}{subsubsection.4.6.9}
+\contentsline {subsubsection}{\numberline {4.6.10}Model - 10}{206}{subsubsection.4.6.10}
+\contentsline {subsubsection}{\numberline {4.6.11}Model - 11}{208}{subsubsection.4.6.11}
+\contentsline {subsubsection}{\numberline {4.6.12}Model - 12}{210}{subsubsection.4.6.12}
+\contentsline {subsubsection}{\numberline {4.6.13}Model - 13}{212}{subsubsection.4.6.13}
+\contentsline {subsubsection}{\numberline {4.6.14}Model - 14}{214}{subsubsection.4.6.14}
+\contentsline {subsubsection}{\numberline {4.6.15}Model - 15}{216}{subsubsection.4.6.15}
+\contentsline {subsubsection}{\numberline {4.6.16}Model - 16}{218}{subsubsection.4.6.16}
+\contentsline {subsubsection}{\numberline {4.6.17}Model - 17}{220}{subsubsection.4.6.17}
+\contentsline {subsubsection}{\numberline {4.6.18}Model - 18}{222}{subsubsection.4.6.18}
+\contentsline {subsubsection}{\numberline {4.6.19}Model - 19}{224}{subsubsection.4.6.19}
+\contentsline {subsubsection}{\numberline {4.6.20}Model - 20}{226}{subsubsection.4.6.20}
+\contentsline {subsubsection}{\numberline {4.6.21}Model - 21}{228}{subsubsection.4.6.21}
+\contentsline {subsubsection}{\numberline {4.6.22}Model - 22}{230}{subsubsection.4.6.22}
+\contentsline {subsubsection}{\numberline {4.6.23}Model - 23}{232}{subsubsection.4.6.23}
+\contentsline {subsubsection}{\numberline {4.6.24}Model - 24}{234}{subsubsection.4.6.24}
+\contentsline {subsubsection}{\numberline {4.6.25}Model - 25}{236}{subsubsection.4.6.25}
+\contentsline {subsubsection}{\numberline {4.6.26}Model - 26}{238}{subsubsection.4.6.26}
+\contentsline {subsubsection}{\numberline {4.6.27}Model - 27}{240}{subsubsection.4.6.27}
+\contentsline {subsubsection}{\numberline {4.6.28}Model - 28}{242}{subsubsection.4.6.28}
+\contentsline {subsubsection}{\numberline {4.6.29}Model - 29}{244}{subsubsection.4.6.29}
+\contentsline {subsubsection}{\numberline {4.6.30}Model - 30}{246}{subsubsection.4.6.30}
+\contentsline {subsection}{\numberline {4.7}Single Factor Model for CO_gasoline}{248}{subsection.4.7}
+\contentsline {subsubsection}{\numberline {4.7.1}Model - 1}{249}{subsubsection.4.7.1}
+\contentsline {subsubsection}{\numberline {4.7.2}Model - 2}{250}{subsubsection.4.7.2}
+\contentsline {subsubsection}{\numberline {4.7.3}Model - 3}{251}{subsubsection.4.7.3}
+\contentsline {subsubsection}{\numberline {4.7.4}Model - 4}{252}{subsubsection.4.7.4}
+\contentsline {subsubsection}{\numberline {4.7.5}Model - 5}{253}{subsubsection.4.7.5}
+\contentsline {subsubsection}{\numberline {4.7.6}Model - 6}{254}{subsubsection.4.7.6}
+\contentsline {subsubsection}{\numberline {4.7.7}Model - 7}{255}{subsubsection.4.7.7}
+\contentsline {subsubsection}{\numberline {4.7.8}Model - 8}{256}{subsubsection.4.7.8}
+\contentsline {subsection}{\numberline {4.8}Two Factor Model for CO_gasoline}{257}{subsection.4.8}
+\contentsline {subsubsection}{\numberline {4.8.1}Model - 1}{260}{subsubsection.4.8.1}
+\contentsline {subsubsection}{\numberline {4.8.2}Model - 2}{262}{subsubsection.4.8.2}
+\contentsline {subsubsection}{\numberline {4.8.3}Model - 3}{264}{subsubsection.4.8.3}
+\contentsline {subsubsection}{\numberline {4.8.4}Model - 4}{266}{subsubsection.4.8.4}
+\contentsline {subsubsection}{\numberline {4.8.5}Model - 5}{268}{subsubsection.4.8.5}
+\contentsline {subsubsection}{\numberline {4.8.6}Model - 6}{270}{subsubsection.4.8.6}
+\contentsline {subsubsection}{\numberline {4.8.7}Model - 7}{272}{subsubsection.4.8.7}
+\contentsline {subsubsection}{\numberline {4.8.8}Model - 8}{274}{subsubsection.4.8.8}
+\contentsline {subsubsection}{\numberline {4.8.9}Model - 9}{276}{subsubsection.4.8.9}
+\contentsline {subsubsection}{\numberline {4.8.10}Model - 10}{278}{subsubsection.4.8.10}
+\contentsline {subsubsection}{\numberline {4.8.11}Model - 11}{280}{subsubsection.4.8.11}
+\contentsline {subsubsection}{\numberline {4.8.12}Model - 12}{282}{subsubsection.4.8.12}
+\contentsline {subsubsection}{\numberline {4.8.13}Model - 13}{284}{subsubsection.4.8.13}
+\contentsline {subsubsection}{\numberline {4.8.14}Model - 14}{286}{subsubsection.4.8.14}
+\contentsline {subsubsection}{\numberline {4.8.15}Model - 15}{288}{subsubsection.4.8.15}
+\contentsline {subsubsection}{\numberline {4.8.16}Model - 16}{290}{subsubsection.4.8.16}
+\contentsline {subsubsection}{\numberline {4.8.17}Model - 17}{292}{subsubsection.4.8.17}
+\contentsline {subsubsection}{\numberline {4.8.18}Model - 18}{294}{subsubsection.4.8.18}
+\contentsline {subsubsection}{\numberline {4.8.19}Model - 19}{296}{subsubsection.4.8.19}
+\contentsline {subsubsection}{\numberline {4.8.20}Model - 20}{298}{subsubsection.4.8.20}
+\contentsline {subsubsection}{\numberline {4.8.21}Model - 21}{300}{subsubsection.4.8.21}
+\contentsline {subsubsection}{\numberline {4.8.22}Model - 22}{302}{subsubsection.4.8.22}
+\contentsline {subsubsection}{\numberline {4.8.23}Model - 23}{304}{subsubsection.4.8.23}
+\contentsline {subsubsection}{\numberline {4.8.24}Model - 24}{306}{subsubsection.4.8.24}
+\contentsline {subsubsection}{\numberline {4.8.25}Model - 25}{308}{subsubsection.4.8.25}
+\contentsline {subsubsection}{\numberline {4.8.26}Model - 26}{310}{subsubsection.4.8.26}
+\contentsline {subsubsection}{\numberline {4.8.27}Model - 27}{312}{subsubsection.4.8.27}
+\contentsline {subsubsection}{\numberline {4.8.28}Model - 28}{314}{subsubsection.4.8.28}
+\contentsline {subsubsection}{\numberline {4.8.29}Model - 29}{316}{subsubsection.4.8.29}
+\contentsline {subsubsection}{\numberline {4.8.30}Model - 30}{318}{subsubsection.4.8.30}
+\contentsline {subsection}{\numberline {4.9}Single Factor Model for CO_gold}{320}{subsection.4.9}
+\contentsline {subsubsection}{\numberline {4.9.1}Model - 1}{321}{subsubsection.4.9.1}
+\contentsline {subsubsection}{\numberline {4.9.2}Model - 2}{322}{subsubsection.4.9.2}
+\contentsline {subsubsection}{\numberline {4.9.3}Model - 3}{323}{subsubsection.4.9.3}
+\contentsline {subsubsection}{\numberline {4.9.4}Model - 4}{324}{subsubsection.4.9.4}
+\contentsline {subsubsection}{\numberline {4.9.5}Model - 5}{325}{subsubsection.4.9.5}
+\contentsline {subsubsection}{\numberline {4.9.6}Model - 6}{326}{subsubsection.4.9.6}
+\contentsline {subsection}{\numberline {4.10}Two Factor Model for CO_gold}{327}{subsection.4.10}
+\contentsline {subsubsection}{\numberline {4.10.1}Model - 1}{330}{subsubsection.4.10.1}
+\contentsline {subsubsection}{\numberline {4.10.2}Model - 2}{332}{subsubsection.4.10.2}
+\contentsline {subsubsection}{\numberline {4.10.3}Model - 3}{334}{subsubsection.4.10.3}
+\contentsline {subsubsection}{\numberline {4.10.4}Model - 4}{336}{subsubsection.4.10.4}
+\contentsline {subsubsection}{\numberline {4.10.5}Model - 5}{338}{subsubsection.4.10.5}
+\contentsline {subsubsection}{\numberline {4.10.6}Model - 6}{340}{subsubsection.4.10.6}
+\contentsline {subsubsection}{\numberline {4.10.7}Model - 7}{342}{subsubsection.4.10.7}
+\contentsline {subsubsection}{\numberline {4.10.8}Model - 8}{344}{subsubsection.4.10.8}
+\contentsline {subsubsection}{\numberline {4.10.9}Model - 9}{346}{subsubsection.4.10.9}
+\contentsline {subsubsection}{\numberline {4.10.10}Model - 10}{348}{subsubsection.4.10.10}
+\contentsline {subsubsection}{\numberline {4.10.11}Model - 11}{350}{subsubsection.4.10.11}
+\contentsline {subsubsection}{\numberline {4.10.12}Model - 12}{352}{subsubsection.4.10.12}
+\contentsline {subsubsection}{\numberline {4.10.13}Model - 13}{354}{subsubsection.4.10.13}
+\contentsline {subsubsection}{\numberline {4.10.14}Model - 14}{356}{subsubsection.4.10.14}
+\contentsline {subsubsection}{\numberline {4.10.15}Model - 15}{358}{subsubsection.4.10.15}
+\contentsline {subsubsection}{\numberline {4.10.16}Model - 16}{360}{subsubsection.4.10.16}
+\contentsline {subsubsection}{\numberline {4.10.17}Model - 17}{362}{subsubsection.4.10.17}
+\contentsline {subsubsection}{\numberline {4.10.18}Model - 18}{364}{subsubsection.4.10.18}
+\contentsline {subsubsection}{\numberline {4.10.19}Model - 19}{366}{subsubsection.4.10.19}
+\contentsline {subsubsection}{\numberline {4.10.20}Model - 20}{368}{subsubsection.4.10.20}
+\contentsline {subsubsection}{\numberline {4.10.21}Model - 21}{370}{subsubsection.4.10.21}
+\contentsline {subsubsection}{\numberline {4.10.22}Model - 22}{372}{subsubsection.4.10.22}
+\contentsline {subsubsection}{\numberline {4.10.23}Model - 23}{374}{subsubsection.4.10.23}
+\contentsline {subsubsection}{\numberline {4.10.24}Model - 24}{376}{subsubsection.4.10.24}
+\contentsline {subsubsection}{\numberline {4.10.25}Model - 25}{378}{subsubsection.4.10.25}
+\contentsline {subsubsection}{\numberline {4.10.26}Model - 26}{380}{subsubsection.4.10.26}
+\contentsline {subsubsection}{\numberline {4.10.27}Model - 27}{382}{subsubsection.4.10.27}
+\contentsline {subsubsection}{\numberline {4.10.28}Model - 28}{384}{subsubsection.4.10.28}
+\contentsline {subsubsection}{\numberline {4.10.29}Model - 29}{386}{subsubsection.4.10.29}
+\contentsline {subsubsection}{\numberline {4.10.30}Model - 30}{388}{subsubsection.4.10.30}
+\contentsline {subsection}{\numberline {4.11}Single Factor Model for CO_silver}{390}{subsection.4.11}
+\contentsline {subsubsection}{\numberline {4.11.1}Model - 1}{391}{subsubsection.4.11.1}
+\contentsline {subsubsection}{\numberline {4.11.2}Model - 2}{392}{subsubsection.4.11.2}
+\contentsline {subsection}{\numberline {4.12}Two Factor Model for CO_silver}{393}{subsection.4.12}
+\contentsline {subsection}{\numberline {4.13}Single Factor Model for CO_grains}{396}{subsection.4.13}
+\contentsline {subsubsection}{\numberline {4.13.1}Model - 1}{397}{subsubsection.4.13.1}
+\contentsline {subsection}{\numberline {4.14}Two Factor Model for CO_grains}{398}{subsection.4.14}

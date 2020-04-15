@@ -1,0 +1,363 @@
+\BOOKMARK [1][-]{section.1}{Asset Classes}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Summary of Asset Classes}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{History: FItreasshort}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{History: FItreaslong}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{History: FIIGshort}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{History: FIIGlong}{section.1}% 6
+\BOOKMARK [2][-]{subsection.1.6}{History: FIIGmid}{section.1}% 7
+\BOOKMARK [2][-]{subsection.1.7}{History: FIHY}{section.1}% 8
+\BOOKMARK [2][-]{subsection.1.8}{History: FIdevedintl}{section.1}% 9
+\BOOKMARK [2][-]{subsection.1.9}{History: FIdevingintl}{section.1}% 10
+\BOOKMARK [1][-]{section.2}{Clusters Analysis of Asset Classes}{}% 11
+\BOOKMARK [2][-]{subsection.2.1}{Asset Class: FixedIncome}{section.2}% 12
+\BOOKMARK [1][-]{section.3}{PCA for Clusters}{}% 13
+\BOOKMARK [2][-]{subsection.3.1}{Cluster: FItreasshort}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.2}{Cluster: FItreaslong}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.3}{Cluster: FIIGshort}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.4}{Cluster: FIIGlong}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.5}{Cluster: FIIGmid}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.6}{Cluster: FIHY}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.7}{Cluster: FIdevedintl}{section.3}% 20
+\BOOKMARK [2][-]{subsection.3.8}{Cluster: FIdevingintl}{section.3}% 21
+\BOOKMARK [1][-]{section.4}{Variable Selection}{}% 22
+\BOOKMARK [2][-]{subsection.4.1}{Single Factor Model for FItreasshort}{section.4}% 23
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Model - 1}{subsection.4.1}% 24
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Model - 2}{subsection.4.1}% 25
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Model - 3}{subsection.4.1}% 26
+\BOOKMARK [3][-]{subsubsection.4.1.4}{Model - 4}{subsection.4.1}% 27
+\BOOKMARK [3][-]{subsubsection.4.1.5}{Model - 5}{subsection.4.1}% 28
+\BOOKMARK [3][-]{subsubsection.4.1.6}{Model - 6}{subsection.4.1}% 29
+\BOOKMARK [3][-]{subsubsection.4.1.7}{Model - 7}{subsection.4.1}% 30
+\BOOKMARK [3][-]{subsubsection.4.1.8}{Model - 8}{subsection.4.1}% 31
+\BOOKMARK [3][-]{subsubsection.4.1.9}{Model - 9}{subsection.4.1}% 32
+\BOOKMARK [3][-]{subsubsection.4.1.10}{Model - 10}{subsection.4.1}% 33
+\BOOKMARK [3][-]{subsubsection.4.1.11}{Model - 11}{subsection.4.1}% 34
+\BOOKMARK [3][-]{subsubsection.4.1.12}{Model - 12}{subsection.4.1}% 35
+\BOOKMARK [3][-]{subsubsection.4.1.13}{Model - 13}{subsection.4.1}% 36
+\BOOKMARK [3][-]{subsubsection.4.1.14}{Model - 14}{subsection.4.1}% 37
+\BOOKMARK [2][-]{subsection.4.2}{Two Factor Model for FItreasshort}{section.4}% 38
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Model - 1}{subsection.4.2}% 39
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Model - 2}{subsection.4.2}% 40
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Model - 3}{subsection.4.2}% 41
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Model - 4}{subsection.4.2}% 42
+\BOOKMARK [3][-]{subsubsection.4.2.5}{Model - 5}{subsection.4.2}% 43
+\BOOKMARK [3][-]{subsubsection.4.2.6}{Model - 6}{subsection.4.2}% 44
+\BOOKMARK [3][-]{subsubsection.4.2.7}{Model - 7}{subsection.4.2}% 45
+\BOOKMARK [3][-]{subsubsection.4.2.8}{Model - 8}{subsection.4.2}% 46
+\BOOKMARK [3][-]{subsubsection.4.2.9}{Model - 9}{subsection.4.2}% 47
+\BOOKMARK [3][-]{subsubsection.4.2.10}{Model - 10}{subsection.4.2}% 48
+\BOOKMARK [3][-]{subsubsection.4.2.11}{Model - 11}{subsection.4.2}% 49
+\BOOKMARK [3][-]{subsubsection.4.2.12}{Model - 12}{subsection.4.2}% 50
+\BOOKMARK [3][-]{subsubsection.4.2.13}{Model - 13}{subsection.4.2}% 51
+\BOOKMARK [3][-]{subsubsection.4.2.14}{Model - 14}{subsection.4.2}% 52
+\BOOKMARK [3][-]{subsubsection.4.2.15}{Model - 15}{subsection.4.2}% 53
+\BOOKMARK [3][-]{subsubsection.4.2.16}{Model - 16}{subsection.4.2}% 54
+\BOOKMARK [3][-]{subsubsection.4.2.17}{Model - 17}{subsection.4.2}% 55
+\BOOKMARK [3][-]{subsubsection.4.2.18}{Model - 18}{subsection.4.2}% 56
+\BOOKMARK [3][-]{subsubsection.4.2.19}{Model - 19}{subsection.4.2}% 57
+\BOOKMARK [3][-]{subsubsection.4.2.20}{Model - 20}{subsection.4.2}% 58
+\BOOKMARK [3][-]{subsubsection.4.2.21}{Model - 21}{subsection.4.2}% 59
+\BOOKMARK [3][-]{subsubsection.4.2.22}{Model - 22}{subsection.4.2}% 60
+\BOOKMARK [3][-]{subsubsection.4.2.23}{Model - 23}{subsection.4.2}% 61
+\BOOKMARK [3][-]{subsubsection.4.2.24}{Model - 24}{subsection.4.2}% 62
+\BOOKMARK [3][-]{subsubsection.4.2.25}{Model - 25}{subsection.4.2}% 63
+\BOOKMARK [3][-]{subsubsection.4.2.26}{Model - 26}{subsection.4.2}% 64
+\BOOKMARK [3][-]{subsubsection.4.2.27}{Model - 27}{subsection.4.2}% 65
+\BOOKMARK [3][-]{subsubsection.4.2.28}{Model - 28}{subsection.4.2}% 66
+\BOOKMARK [3][-]{subsubsection.4.2.29}{Model - 29}{subsection.4.2}% 67
+\BOOKMARK [3][-]{subsubsection.4.2.30}{Model - 30}{subsection.4.2}% 68
+\BOOKMARK [2][-]{subsection.4.3}{Single Factor Model for FItreaslong}{section.4}% 69
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Model - 1}{subsection.4.3}% 70
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Model - 2}{subsection.4.3}% 71
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Model - 3}{subsection.4.3}% 72
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Model - 4}{subsection.4.3}% 73
+\BOOKMARK [3][-]{subsubsection.4.3.5}{Model - 5}{subsection.4.3}% 74
+\BOOKMARK [3][-]{subsubsection.4.3.6}{Model - 6}{subsection.4.3}% 75
+\BOOKMARK [3][-]{subsubsection.4.3.7}{Model - 7}{subsection.4.3}% 76
+\BOOKMARK [3][-]{subsubsection.4.3.8}{Model - 8}{subsection.4.3}% 77
+\BOOKMARK [3][-]{subsubsection.4.3.9}{Model - 9}{subsection.4.3}% 78
+\BOOKMARK [3][-]{subsubsection.4.3.10}{Model - 10}{subsection.4.3}% 79
+\BOOKMARK [2][-]{subsection.4.4}{Two Factor Model for FItreaslong}{section.4}% 80
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Model - 1}{subsection.4.4}% 81
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Model - 2}{subsection.4.4}% 82
+\BOOKMARK [3][-]{subsubsection.4.4.3}{Model - 3}{subsection.4.4}% 83
+\BOOKMARK [3][-]{subsubsection.4.4.4}{Model - 4}{subsection.4.4}% 84
+\BOOKMARK [3][-]{subsubsection.4.4.5}{Model - 5}{subsection.4.4}% 85
+\BOOKMARK [3][-]{subsubsection.4.4.6}{Model - 6}{subsection.4.4}% 86
+\BOOKMARK [3][-]{subsubsection.4.4.7}{Model - 7}{subsection.4.4}% 87
+\BOOKMARK [3][-]{subsubsection.4.4.8}{Model - 8}{subsection.4.4}% 88
+\BOOKMARK [3][-]{subsubsection.4.4.9}{Model - 9}{subsection.4.4}% 89
+\BOOKMARK [3][-]{subsubsection.4.4.10}{Model - 10}{subsection.4.4}% 90
+\BOOKMARK [3][-]{subsubsection.4.4.11}{Model - 11}{subsection.4.4}% 91
+\BOOKMARK [3][-]{subsubsection.4.4.12}{Model - 12}{subsection.4.4}% 92
+\BOOKMARK [3][-]{subsubsection.4.4.13}{Model - 13}{subsection.4.4}% 93
+\BOOKMARK [3][-]{subsubsection.4.4.14}{Model - 14}{subsection.4.4}% 94
+\BOOKMARK [3][-]{subsubsection.4.4.15}{Model - 15}{subsection.4.4}% 95
+\BOOKMARK [3][-]{subsubsection.4.4.16}{Model - 16}{subsection.4.4}% 96
+\BOOKMARK [3][-]{subsubsection.4.4.17}{Model - 17}{subsection.4.4}% 97
+\BOOKMARK [3][-]{subsubsection.4.4.18}{Model - 18}{subsection.4.4}% 98
+\BOOKMARK [3][-]{subsubsection.4.4.19}{Model - 19}{subsection.4.4}% 99
+\BOOKMARK [3][-]{subsubsection.4.4.20}{Model - 20}{subsection.4.4}% 100
+\BOOKMARK [3][-]{subsubsection.4.4.21}{Model - 21}{subsection.4.4}% 101
+\BOOKMARK [3][-]{subsubsection.4.4.22}{Model - 22}{subsection.4.4}% 102
+\BOOKMARK [3][-]{subsubsection.4.4.23}{Model - 23}{subsection.4.4}% 103
+\BOOKMARK [3][-]{subsubsection.4.4.24}{Model - 24}{subsection.4.4}% 104
+\BOOKMARK [3][-]{subsubsection.4.4.25}{Model - 25}{subsection.4.4}% 105
+\BOOKMARK [3][-]{subsubsection.4.4.26}{Model - 26}{subsection.4.4}% 106
+\BOOKMARK [3][-]{subsubsection.4.4.27}{Model - 27}{subsection.4.4}% 107
+\BOOKMARK [3][-]{subsubsection.4.4.28}{Model - 28}{subsection.4.4}% 108
+\BOOKMARK [3][-]{subsubsection.4.4.29}{Model - 29}{subsection.4.4}% 109
+\BOOKMARK [3][-]{subsubsection.4.4.30}{Model - 30}{subsection.4.4}% 110
+\BOOKMARK [2][-]{subsection.4.5}{Single Factor Model for FIIGshort}{section.4}% 111
+\BOOKMARK [3][-]{subsubsection.4.5.1}{Model - 1}{subsection.4.5}% 112
+\BOOKMARK [3][-]{subsubsection.4.5.2}{Model - 2}{subsection.4.5}% 113
+\BOOKMARK [3][-]{subsubsection.4.5.3}{Model - 3}{subsection.4.5}% 114
+\BOOKMARK [3][-]{subsubsection.4.5.4}{Model - 4}{subsection.4.5}% 115
+\BOOKMARK [3][-]{subsubsection.4.5.5}{Model - 5}{subsection.4.5}% 116
+\BOOKMARK [3][-]{subsubsection.4.5.6}{Model - 6}{subsection.4.5}% 117
+\BOOKMARK [3][-]{subsubsection.4.5.7}{Model - 7}{subsection.4.5}% 118
+\BOOKMARK [3][-]{subsubsection.4.5.8}{Model - 8}{subsection.4.5}% 119
+\BOOKMARK [3][-]{subsubsection.4.5.9}{Model - 9}{subsection.4.5}% 120
+\BOOKMARK [3][-]{subsubsection.4.5.10}{Model - 10}{subsection.4.5}% 121
+\BOOKMARK [3][-]{subsubsection.4.5.11}{Model - 11}{subsection.4.5}% 122
+\BOOKMARK [3][-]{subsubsection.4.5.12}{Model - 12}{subsection.4.5}% 123
+\BOOKMARK [2][-]{subsection.4.6}{Two Factor Model for FIIGshort}{section.4}% 124
+\BOOKMARK [3][-]{subsubsection.4.6.1}{Model - 1}{subsection.4.6}% 125
+\BOOKMARK [3][-]{subsubsection.4.6.2}{Model - 2}{subsection.4.6}% 126
+\BOOKMARK [3][-]{subsubsection.4.6.3}{Model - 3}{subsection.4.6}% 127
+\BOOKMARK [3][-]{subsubsection.4.6.4}{Model - 4}{subsection.4.6}% 128
+\BOOKMARK [3][-]{subsubsection.4.6.5}{Model - 5}{subsection.4.6}% 129
+\BOOKMARK [3][-]{subsubsection.4.6.6}{Model - 6}{subsection.4.6}% 130
+\BOOKMARK [3][-]{subsubsection.4.6.7}{Model - 7}{subsection.4.6}% 131
+\BOOKMARK [3][-]{subsubsection.4.6.8}{Model - 8}{subsection.4.6}% 132
+\BOOKMARK [3][-]{subsubsection.4.6.9}{Model - 9}{subsection.4.6}% 133
+\BOOKMARK [3][-]{subsubsection.4.6.10}{Model - 10}{subsection.4.6}% 134
+\BOOKMARK [3][-]{subsubsection.4.6.11}{Model - 11}{subsection.4.6}% 135
+\BOOKMARK [3][-]{subsubsection.4.6.12}{Model - 12}{subsection.4.6}% 136
+\BOOKMARK [3][-]{subsubsection.4.6.13}{Model - 13}{subsection.4.6}% 137
+\BOOKMARK [3][-]{subsubsection.4.6.14}{Model - 14}{subsection.4.6}% 138
+\BOOKMARK [3][-]{subsubsection.4.6.15}{Model - 15}{subsection.4.6}% 139
+\BOOKMARK [3][-]{subsubsection.4.6.16}{Model - 16}{subsection.4.6}% 140
+\BOOKMARK [3][-]{subsubsection.4.6.17}{Model - 17}{subsection.4.6}% 141
+\BOOKMARK [3][-]{subsubsection.4.6.18}{Model - 18}{subsection.4.6}% 142
+\BOOKMARK [3][-]{subsubsection.4.6.19}{Model - 19}{subsection.4.6}% 143
+\BOOKMARK [3][-]{subsubsection.4.6.20}{Model - 20}{subsection.4.6}% 144
+\BOOKMARK [3][-]{subsubsection.4.6.21}{Model - 21}{subsection.4.6}% 145
+\BOOKMARK [3][-]{subsubsection.4.6.22}{Model - 22}{subsection.4.6}% 146
+\BOOKMARK [3][-]{subsubsection.4.6.23}{Model - 23}{subsection.4.6}% 147
+\BOOKMARK [3][-]{subsubsection.4.6.24}{Model - 24}{subsection.4.6}% 148
+\BOOKMARK [3][-]{subsubsection.4.6.25}{Model - 25}{subsection.4.6}% 149
+\BOOKMARK [3][-]{subsubsection.4.6.26}{Model - 26}{subsection.4.6}% 150
+\BOOKMARK [3][-]{subsubsection.4.6.27}{Model - 27}{subsection.4.6}% 151
+\BOOKMARK [3][-]{subsubsection.4.6.28}{Model - 28}{subsection.4.6}% 152
+\BOOKMARK [3][-]{subsubsection.4.6.29}{Model - 29}{subsection.4.6}% 153
+\BOOKMARK [3][-]{subsubsection.4.6.30}{Model - 30}{subsection.4.6}% 154
+\BOOKMARK [2][-]{subsection.4.7}{Single Factor Model for FIIGlong}{section.4}% 155
+\BOOKMARK [3][-]{subsubsection.4.7.1}{Model - 1}{subsection.4.7}% 156
+\BOOKMARK [3][-]{subsubsection.4.7.2}{Model - 2}{subsection.4.7}% 157
+\BOOKMARK [3][-]{subsubsection.4.7.3}{Model - 3}{subsection.4.7}% 158
+\BOOKMARK [3][-]{subsubsection.4.7.4}{Model - 4}{subsection.4.7}% 159
+\BOOKMARK [3][-]{subsubsection.4.7.5}{Model - 5}{subsection.4.7}% 160
+\BOOKMARK [3][-]{subsubsection.4.7.6}{Model - 6}{subsection.4.7}% 161
+\BOOKMARK [3][-]{subsubsection.4.7.7}{Model - 7}{subsection.4.7}% 162
+\BOOKMARK [3][-]{subsubsection.4.7.8}{Model - 8}{subsection.4.7}% 163
+\BOOKMARK [3][-]{subsubsection.4.7.9}{Model - 9}{subsection.4.7}% 164
+\BOOKMARK [3][-]{subsubsection.4.7.10}{Model - 10}{subsection.4.7}% 165
+\BOOKMARK [2][-]{subsection.4.8}{Two Factor Model for FIIGlong}{section.4}% 166
+\BOOKMARK [3][-]{subsubsection.4.8.1}{Model - 1}{subsection.4.8}% 167
+\BOOKMARK [3][-]{subsubsection.4.8.2}{Model - 2}{subsection.4.8}% 168
+\BOOKMARK [3][-]{subsubsection.4.8.3}{Model - 3}{subsection.4.8}% 169
+\BOOKMARK [3][-]{subsubsection.4.8.4}{Model - 4}{subsection.4.8}% 170
+\BOOKMARK [3][-]{subsubsection.4.8.5}{Model - 5}{subsection.4.8}% 171
+\BOOKMARK [3][-]{subsubsection.4.8.6}{Model - 6}{subsection.4.8}% 172
+\BOOKMARK [3][-]{subsubsection.4.8.7}{Model - 7}{subsection.4.8}% 173
+\BOOKMARK [3][-]{subsubsection.4.8.8}{Model - 8}{subsection.4.8}% 174
+\BOOKMARK [3][-]{subsubsection.4.8.9}{Model - 9}{subsection.4.8}% 175
+\BOOKMARK [3][-]{subsubsection.4.8.10}{Model - 10}{subsection.4.8}% 176
+\BOOKMARK [3][-]{subsubsection.4.8.11}{Model - 11}{subsection.4.8}% 177
+\BOOKMARK [3][-]{subsubsection.4.8.12}{Model - 12}{subsection.4.8}% 178
+\BOOKMARK [3][-]{subsubsection.4.8.13}{Model - 13}{subsection.4.8}% 179
+\BOOKMARK [3][-]{subsubsection.4.8.14}{Model - 14}{subsection.4.8}% 180
+\BOOKMARK [3][-]{subsubsection.4.8.15}{Model - 15}{subsection.4.8}% 181
+\BOOKMARK [3][-]{subsubsection.4.8.16}{Model - 16}{subsection.4.8}% 182
+\BOOKMARK [3][-]{subsubsection.4.8.17}{Model - 17}{subsection.4.8}% 183
+\BOOKMARK [3][-]{subsubsection.4.8.18}{Model - 18}{subsection.4.8}% 184
+\BOOKMARK [3][-]{subsubsection.4.8.19}{Model - 19}{subsection.4.8}% 185
+\BOOKMARK [3][-]{subsubsection.4.8.20}{Model - 20}{subsection.4.8}% 186
+\BOOKMARK [3][-]{subsubsection.4.8.21}{Model - 21}{subsection.4.8}% 187
+\BOOKMARK [3][-]{subsubsection.4.8.22}{Model - 22}{subsection.4.8}% 188
+\BOOKMARK [3][-]{subsubsection.4.8.23}{Model - 23}{subsection.4.8}% 189
+\BOOKMARK [3][-]{subsubsection.4.8.24}{Model - 24}{subsection.4.8}% 190
+\BOOKMARK [3][-]{subsubsection.4.8.25}{Model - 25}{subsection.4.8}% 191
+\BOOKMARK [3][-]{subsubsection.4.8.26}{Model - 26}{subsection.4.8}% 192
+\BOOKMARK [3][-]{subsubsection.4.8.27}{Model - 27}{subsection.4.8}% 193
+\BOOKMARK [3][-]{subsubsection.4.8.28}{Model - 28}{subsection.4.8}% 194
+\BOOKMARK [3][-]{subsubsection.4.8.29}{Model - 29}{subsection.4.8}% 195
+\BOOKMARK [3][-]{subsubsection.4.8.30}{Model - 30}{subsection.4.8}% 196
+\BOOKMARK [2][-]{subsection.4.9}{Single Factor Model for FIIGmid}{section.4}% 197
+\BOOKMARK [3][-]{subsubsection.4.9.1}{Model - 1}{subsection.4.9}% 198
+\BOOKMARK [3][-]{subsubsection.4.9.2}{Model - 2}{subsection.4.9}% 199
+\BOOKMARK [3][-]{subsubsection.4.9.3}{Model - 3}{subsection.4.9}% 200
+\BOOKMARK [3][-]{subsubsection.4.9.4}{Model - 4}{subsection.4.9}% 201
+\BOOKMARK [3][-]{subsubsection.4.9.5}{Model - 5}{subsection.4.9}% 202
+\BOOKMARK [3][-]{subsubsection.4.9.6}{Model - 6}{subsection.4.9}% 203
+\BOOKMARK [3][-]{subsubsection.4.9.7}{Model - 7}{subsection.4.9}% 204
+\BOOKMARK [3][-]{subsubsection.4.9.8}{Model - 8}{subsection.4.9}% 205
+\BOOKMARK [2][-]{subsection.4.10}{Two Factor Model for FIIGmid}{section.4}% 206
+\BOOKMARK [3][-]{subsubsection.4.10.1}{Model - 1}{subsection.4.10}% 207
+\BOOKMARK [3][-]{subsubsection.4.10.2}{Model - 2}{subsection.4.10}% 208
+\BOOKMARK [3][-]{subsubsection.4.10.3}{Model - 3}{subsection.4.10}% 209
+\BOOKMARK [3][-]{subsubsection.4.10.4}{Model - 4}{subsection.4.10}% 210
+\BOOKMARK [3][-]{subsubsection.4.10.5}{Model - 5}{subsection.4.10}% 211
+\BOOKMARK [3][-]{subsubsection.4.10.6}{Model - 6}{subsection.4.10}% 212
+\BOOKMARK [3][-]{subsubsection.4.10.7}{Model - 7}{subsection.4.10}% 213
+\BOOKMARK [3][-]{subsubsection.4.10.8}{Model - 8}{subsection.4.10}% 214
+\BOOKMARK [3][-]{subsubsection.4.10.9}{Model - 9}{subsection.4.10}% 215
+\BOOKMARK [3][-]{subsubsection.4.10.10}{Model - 10}{subsection.4.10}% 216
+\BOOKMARK [3][-]{subsubsection.4.10.11}{Model - 11}{subsection.4.10}% 217
+\BOOKMARK [3][-]{subsubsection.4.10.12}{Model - 12}{subsection.4.10}% 218
+\BOOKMARK [3][-]{subsubsection.4.10.13}{Model - 13}{subsection.4.10}% 219
+\BOOKMARK [3][-]{subsubsection.4.10.14}{Model - 14}{subsection.4.10}% 220
+\BOOKMARK [3][-]{subsubsection.4.10.15}{Model - 15}{subsection.4.10}% 221
+\BOOKMARK [3][-]{subsubsection.4.10.16}{Model - 16}{subsection.4.10}% 222
+\BOOKMARK [3][-]{subsubsection.4.10.17}{Model - 17}{subsection.4.10}% 223
+\BOOKMARK [3][-]{subsubsection.4.10.18}{Model - 18}{subsection.4.10}% 224
+\BOOKMARK [3][-]{subsubsection.4.10.19}{Model - 19}{subsection.4.10}% 225
+\BOOKMARK [3][-]{subsubsection.4.10.20}{Model - 20}{subsection.4.10}% 226
+\BOOKMARK [3][-]{subsubsection.4.10.21}{Model - 21}{subsection.4.10}% 227
+\BOOKMARK [3][-]{subsubsection.4.10.22}{Model - 22}{subsection.4.10}% 228
+\BOOKMARK [3][-]{subsubsection.4.10.23}{Model - 23}{subsection.4.10}% 229
+\BOOKMARK [3][-]{subsubsection.4.10.24}{Model - 24}{subsection.4.10}% 230
+\BOOKMARK [3][-]{subsubsection.4.10.25}{Model - 25}{subsection.4.10}% 231
+\BOOKMARK [3][-]{subsubsection.4.10.26}{Model - 26}{subsection.4.10}% 232
+\BOOKMARK [3][-]{subsubsection.4.10.27}{Model - 27}{subsection.4.10}% 233
+\BOOKMARK [3][-]{subsubsection.4.10.28}{Model - 28}{subsection.4.10}% 234
+\BOOKMARK [3][-]{subsubsection.4.10.29}{Model - 29}{subsection.4.10}% 235
+\BOOKMARK [3][-]{subsubsection.4.10.30}{Model - 30}{subsection.4.10}% 236
+\BOOKMARK [2][-]{subsection.4.11}{Single Factor Model for FIHY}{section.4}% 237
+\BOOKMARK [3][-]{subsubsection.4.11.1}{Model - 1}{subsection.4.11}% 238
+\BOOKMARK [3][-]{subsubsection.4.11.2}{Model - 2}{subsection.4.11}% 239
+\BOOKMARK [3][-]{subsubsection.4.11.3}{Model - 3}{subsection.4.11}% 240
+\BOOKMARK [3][-]{subsubsection.4.11.4}{Model - 4}{subsection.4.11}% 241
+\BOOKMARK [3][-]{subsubsection.4.11.5}{Model - 5}{subsection.4.11}% 242
+\BOOKMARK [3][-]{subsubsection.4.11.6}{Model - 6}{subsection.4.11}% 243
+\BOOKMARK [3][-]{subsubsection.4.11.7}{Model - 7}{subsection.4.11}% 244
+\BOOKMARK [3][-]{subsubsection.4.11.8}{Model - 8}{subsection.4.11}% 245
+\BOOKMARK [3][-]{subsubsection.4.11.9}{Model - 9}{subsection.4.11}% 246
+\BOOKMARK [3][-]{subsubsection.4.11.10}{Model - 10}{subsection.4.11}% 247
+\BOOKMARK [3][-]{subsubsection.4.11.11}{Model - 11}{subsection.4.11}% 248
+\BOOKMARK [3][-]{subsubsection.4.11.12}{Model - 12}{subsection.4.11}% 249
+\BOOKMARK [3][-]{subsubsection.4.11.13}{Model - 13}{subsection.4.11}% 250
+\BOOKMARK [3][-]{subsubsection.4.11.14}{Model - 14}{subsection.4.11}% 251
+\BOOKMARK [3][-]{subsubsection.4.11.15}{Model - 15}{subsection.4.11}% 252
+\BOOKMARK [3][-]{subsubsection.4.11.16}{Model - 16}{subsection.4.11}% 253
+\BOOKMARK [3][-]{subsubsection.4.11.17}{Model - 17}{subsection.4.11}% 254
+\BOOKMARK [2][-]{subsection.4.12}{Two Factor Model for FIHY}{section.4}% 255
+\BOOKMARK [3][-]{subsubsection.4.12.1}{Model - 1}{subsection.4.12}% 256
+\BOOKMARK [3][-]{subsubsection.4.12.2}{Model - 2}{subsection.4.12}% 257
+\BOOKMARK [3][-]{subsubsection.4.12.3}{Model - 3}{subsection.4.12}% 258
+\BOOKMARK [3][-]{subsubsection.4.12.4}{Model - 4}{subsection.4.12}% 259
+\BOOKMARK [3][-]{subsubsection.4.12.5}{Model - 5}{subsection.4.12}% 260
+\BOOKMARK [3][-]{subsubsection.4.12.6}{Model - 6}{subsection.4.12}% 261
+\BOOKMARK [3][-]{subsubsection.4.12.7}{Model - 7}{subsection.4.12}% 262
+\BOOKMARK [3][-]{subsubsection.4.12.8}{Model - 8}{subsection.4.12}% 263
+\BOOKMARK [3][-]{subsubsection.4.12.9}{Model - 9}{subsection.4.12}% 264
+\BOOKMARK [3][-]{subsubsection.4.12.10}{Model - 10}{subsection.4.12}% 265
+\BOOKMARK [3][-]{subsubsection.4.12.11}{Model - 11}{subsection.4.12}% 266
+\BOOKMARK [3][-]{subsubsection.4.12.12}{Model - 12}{subsection.4.12}% 267
+\BOOKMARK [3][-]{subsubsection.4.12.13}{Model - 13}{subsection.4.12}% 268
+\BOOKMARK [3][-]{subsubsection.4.12.14}{Model - 14}{subsection.4.12}% 269
+\BOOKMARK [3][-]{subsubsection.4.12.15}{Model - 15}{subsection.4.12}% 270
+\BOOKMARK [3][-]{subsubsection.4.12.16}{Model - 16}{subsection.4.12}% 271
+\BOOKMARK [3][-]{subsubsection.4.12.17}{Model - 17}{subsection.4.12}% 272
+\BOOKMARK [3][-]{subsubsection.4.12.18}{Model - 18}{subsection.4.12}% 273
+\BOOKMARK [3][-]{subsubsection.4.12.19}{Model - 19}{subsection.4.12}% 274
+\BOOKMARK [3][-]{subsubsection.4.12.20}{Model - 20}{subsection.4.12}% 275
+\BOOKMARK [3][-]{subsubsection.4.12.21}{Model - 21}{subsection.4.12}% 276
+\BOOKMARK [3][-]{subsubsection.4.12.22}{Model - 22}{subsection.4.12}% 277
+\BOOKMARK [3][-]{subsubsection.4.12.23}{Model - 23}{subsection.4.12}% 278
+\BOOKMARK [3][-]{subsubsection.4.12.24}{Model - 24}{subsection.4.12}% 279
+\BOOKMARK [3][-]{subsubsection.4.12.25}{Model - 25}{subsection.4.12}% 280
+\BOOKMARK [3][-]{subsubsection.4.12.26}{Model - 26}{subsection.4.12}% 281
+\BOOKMARK [3][-]{subsubsection.4.12.27}{Model - 27}{subsection.4.12}% 282
+\BOOKMARK [3][-]{subsubsection.4.12.28}{Model - 28}{subsection.4.12}% 283
+\BOOKMARK [3][-]{subsubsection.4.12.29}{Model - 29}{subsection.4.12}% 284
+\BOOKMARK [3][-]{subsubsection.4.12.30}{Model - 30}{subsection.4.12}% 285
+\BOOKMARK [2][-]{subsection.4.13}{Single Factor Model for FIdevedintl}{section.4}% 286
+\BOOKMARK [3][-]{subsubsection.4.13.1}{Model - 1}{subsection.4.13}% 287
+\BOOKMARK [3][-]{subsubsection.4.13.2}{Model - 2}{subsection.4.13}% 288
+\BOOKMARK [3][-]{subsubsection.4.13.3}{Model - 3}{subsection.4.13}% 289
+\BOOKMARK [3][-]{subsubsection.4.13.4}{Model - 4}{subsection.4.13}% 290
+\BOOKMARK [3][-]{subsubsection.4.13.5}{Model - 5}{subsection.4.13}% 291
+\BOOKMARK [3][-]{subsubsection.4.13.6}{Model - 6}{subsection.4.13}% 292
+\BOOKMARK [3][-]{subsubsection.4.13.7}{Model - 7}{subsection.4.13}% 293
+\BOOKMARK [3][-]{subsubsection.4.13.8}{Model - 8}{subsection.4.13}% 294
+\BOOKMARK [3][-]{subsubsection.4.13.9}{Model - 9}{subsection.4.13}% 295
+\BOOKMARK [3][-]{subsubsection.4.13.10}{Model - 10}{subsection.4.13}% 296
+\BOOKMARK [3][-]{subsubsection.4.13.11}{Model - 11}{subsection.4.13}% 297
+\BOOKMARK [3][-]{subsubsection.4.13.12}{Model - 12}{subsection.4.13}% 298
+\BOOKMARK [2][-]{subsection.4.14}{Two Factor Model for FIdevedintl}{section.4}% 299
+\BOOKMARK [3][-]{subsubsection.4.14.1}{Model - 1}{subsection.4.14}% 300
+\BOOKMARK [3][-]{subsubsection.4.14.2}{Model - 2}{subsection.4.14}% 301
+\BOOKMARK [3][-]{subsubsection.4.14.3}{Model - 3}{subsection.4.14}% 302
+\BOOKMARK [3][-]{subsubsection.4.14.4}{Model - 4}{subsection.4.14}% 303
+\BOOKMARK [3][-]{subsubsection.4.14.5}{Model - 5}{subsection.4.14}% 304
+\BOOKMARK [3][-]{subsubsection.4.14.6}{Model - 6}{subsection.4.14}% 305
+\BOOKMARK [3][-]{subsubsection.4.14.7}{Model - 7}{subsection.4.14}% 306
+\BOOKMARK [3][-]{subsubsection.4.14.8}{Model - 8}{subsection.4.14}% 307
+\BOOKMARK [3][-]{subsubsection.4.14.9}{Model - 9}{subsection.4.14}% 308
+\BOOKMARK [3][-]{subsubsection.4.14.10}{Model - 10}{subsection.4.14}% 309
+\BOOKMARK [3][-]{subsubsection.4.14.11}{Model - 11}{subsection.4.14}% 310
+\BOOKMARK [3][-]{subsubsection.4.14.12}{Model - 12}{subsection.4.14}% 311
+\BOOKMARK [3][-]{subsubsection.4.14.13}{Model - 13}{subsection.4.14}% 312
+\BOOKMARK [3][-]{subsubsection.4.14.14}{Model - 14}{subsection.4.14}% 313
+\BOOKMARK [3][-]{subsubsection.4.14.15}{Model - 15}{subsection.4.14}% 314
+\BOOKMARK [3][-]{subsubsection.4.14.16}{Model - 16}{subsection.4.14}% 315
+\BOOKMARK [3][-]{subsubsection.4.14.17}{Model - 17}{subsection.4.14}% 316
+\BOOKMARK [3][-]{subsubsection.4.14.18}{Model - 18}{subsection.4.14}% 317
+\BOOKMARK [3][-]{subsubsection.4.14.19}{Model - 19}{subsection.4.14}% 318
+\BOOKMARK [3][-]{subsubsection.4.14.20}{Model - 20}{subsection.4.14}% 319
+\BOOKMARK [3][-]{subsubsection.4.14.21}{Model - 21}{subsection.4.14}% 320
+\BOOKMARK [3][-]{subsubsection.4.14.22}{Model - 22}{subsection.4.14}% 321
+\BOOKMARK [3][-]{subsubsection.4.14.23}{Model - 23}{subsection.4.14}% 322
+\BOOKMARK [3][-]{subsubsection.4.14.24}{Model - 24}{subsection.4.14}% 323
+\BOOKMARK [3][-]{subsubsection.4.14.25}{Model - 25}{subsection.4.14}% 324
+\BOOKMARK [3][-]{subsubsection.4.14.26}{Model - 26}{subsection.4.14}% 325
+\BOOKMARK [3][-]{subsubsection.4.14.27}{Model - 27}{subsection.4.14}% 326
+\BOOKMARK [3][-]{subsubsection.4.14.28}{Model - 28}{subsection.4.14}% 327
+\BOOKMARK [3][-]{subsubsection.4.14.29}{Model - 29}{subsection.4.14}% 328
+\BOOKMARK [3][-]{subsubsection.4.14.30}{Model - 30}{subsection.4.14}% 329
+\BOOKMARK [2][-]{subsection.4.15}{Single Factor Model for FIdevingintl}{section.4}% 330
+\BOOKMARK [3][-]{subsubsection.4.15.1}{Model - 1}{subsection.4.15}% 331
+\BOOKMARK [3][-]{subsubsection.4.15.2}{Model - 2}{subsection.4.15}% 332
+\BOOKMARK [2][-]{subsection.4.16}{Two Factor Model for FIdevingintl}{section.4}% 333
+\BOOKMARK [3][-]{subsubsection.4.16.1}{Model - 1}{subsection.4.16}% 334
+\BOOKMARK [3][-]{subsubsection.4.16.2}{Model - 2}{subsection.4.16}% 335
+\BOOKMARK [3][-]{subsubsection.4.16.3}{Model - 3}{subsection.4.16}% 336
+\BOOKMARK [3][-]{subsubsection.4.16.4}{Model - 4}{subsection.4.16}% 337
+\BOOKMARK [3][-]{subsubsection.4.16.5}{Model - 5}{subsection.4.16}% 338
+\BOOKMARK [3][-]{subsubsection.4.16.6}{Model - 6}{subsection.4.16}% 339
+\BOOKMARK [3][-]{subsubsection.4.16.7}{Model - 7}{subsection.4.16}% 340
+\BOOKMARK [3][-]{subsubsection.4.16.8}{Model - 8}{subsection.4.16}% 341
+\BOOKMARK [3][-]{subsubsection.4.16.9}{Model - 9}{subsection.4.16}% 342
+\BOOKMARK [3][-]{subsubsection.4.16.10}{Model - 10}{subsection.4.16}% 343
+\BOOKMARK [3][-]{subsubsection.4.16.11}{Model - 11}{subsection.4.16}% 344
+\BOOKMARK [3][-]{subsubsection.4.16.12}{Model - 12}{subsection.4.16}% 345
+\BOOKMARK [3][-]{subsubsection.4.16.13}{Model - 13}{subsection.4.16}% 346
+\BOOKMARK [3][-]{subsubsection.4.16.14}{Model - 14}{subsection.4.16}% 347
+\BOOKMARK [3][-]{subsubsection.4.16.15}{Model - 15}{subsection.4.16}% 348
+\BOOKMARK [3][-]{subsubsection.4.16.16}{Model - 16}{subsection.4.16}% 349
+\BOOKMARK [3][-]{subsubsection.4.16.17}{Model - 17}{subsection.4.16}% 350
+\BOOKMARK [3][-]{subsubsection.4.16.18}{Model - 18}{subsection.4.16}% 351
+\BOOKMARK [3][-]{subsubsection.4.16.19}{Model - 19}{subsection.4.16}% 352
+\BOOKMARK [3][-]{subsubsection.4.16.20}{Model - 20}{subsection.4.16}% 353
+\BOOKMARK [3][-]{subsubsection.4.16.21}{Model - 21}{subsection.4.16}% 354
+\BOOKMARK [3][-]{subsubsection.4.16.22}{Model - 22}{subsection.4.16}% 355
+\BOOKMARK [3][-]{subsubsection.4.16.23}{Model - 23}{subsection.4.16}% 356
+\BOOKMARK [3][-]{subsubsection.4.16.24}{Model - 24}{subsection.4.16}% 357
+\BOOKMARK [3][-]{subsubsection.4.16.25}{Model - 25}{subsection.4.16}% 358
+\BOOKMARK [3][-]{subsubsection.4.16.26}{Model - 26}{subsection.4.16}% 359
+\BOOKMARK [3][-]{subsubsection.4.16.27}{Model - 27}{subsection.4.16}% 360
+\BOOKMARK [3][-]{subsubsection.4.16.28}{Model - 28}{subsection.4.16}% 361
+\BOOKMARK [3][-]{subsubsection.4.16.29}{Model - 29}{subsection.4.16}% 362
+\BOOKMARK [3][-]{subsubsection.4.16.30}{Model - 30}{subsection.4.16}% 363

@@ -1,0 +1,226 @@
+\BOOKMARK [1][-]{section.1}{Asset Classes}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Summary of Asset Classes}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{History: COoil1}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{History: COoil2}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{History: COnatgas}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{History: COgasoline}{section.1}% 6
+\BOOKMARK [2][-]{subsection.1.6}{History: COgold}{section.1}% 7
+\BOOKMARK [2][-]{subsection.1.7}{History: COsilver}{section.1}% 8
+\BOOKMARK [2][-]{subsection.1.8}{History: COgrains}{section.1}% 9
+\BOOKMARK [1][-]{section.2}{Clusters Analysis of Asset Classes}{}% 10
+\BOOKMARK [2][-]{subsection.2.1}{Asset Class: Commodity}{section.2}% 11
+\BOOKMARK [1][-]{section.3}{PCA for Clusters}{}% 12
+\BOOKMARK [2][-]{subsection.3.1}{Cluster: COoil1}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.2}{Cluster: COoil2}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.3}{Cluster: COnatgas}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.4}{Cluster: COgasoline}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.5}{Cluster: COgold}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.6}{Cluster: COsilver}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.7}{Cluster: COgrains}{section.3}% 19
+\BOOKMARK [1][-]{section.4}{Variable Selection}{}% 20
+\BOOKMARK [2][-]{subsection.4.1}{Single Factor Model for COoil1}{section.4}% 21
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Model - 1}{subsection.4.1}% 22
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Model - 2}{subsection.4.1}% 23
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Model - 3}{subsection.4.1}% 24
+\BOOKMARK [3][-]{subsubsection.4.1.4}{Model - 4}{subsection.4.1}% 25
+\BOOKMARK [3][-]{subsubsection.4.1.5}{Model - 5}{subsection.4.1}% 26
+\BOOKMARK [3][-]{subsubsection.4.1.6}{Model - 6}{subsection.4.1}% 27
+\BOOKMARK [3][-]{subsubsection.4.1.7}{Model - 7}{subsection.4.1}% 28
+\BOOKMARK [3][-]{subsubsection.4.1.8}{Model - 8}{subsection.4.1}% 29
+\BOOKMARK [3][-]{subsubsection.4.1.9}{Model - 9}{subsection.4.1}% 30
+\BOOKMARK [3][-]{subsubsection.4.1.10}{Model - 10}{subsection.4.1}% 31
+\BOOKMARK [3][-]{subsubsection.4.1.11}{Model - 11}{subsection.4.1}% 32
+\BOOKMARK [3][-]{subsubsection.4.1.12}{Model - 12}{subsection.4.1}% 33
+\BOOKMARK [2][-]{subsection.4.2}{Two Factor Model for COoil1}{section.4}% 34
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Model - 1}{subsection.4.2}% 35
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Model - 2}{subsection.4.2}% 36
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Model - 3}{subsection.4.2}% 37
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Model - 4}{subsection.4.2}% 38
+\BOOKMARK [3][-]{subsubsection.4.2.5}{Model - 5}{subsection.4.2}% 39
+\BOOKMARK [3][-]{subsubsection.4.2.6}{Model - 6}{subsection.4.2}% 40
+\BOOKMARK [3][-]{subsubsection.4.2.7}{Model - 7}{subsection.4.2}% 41
+\BOOKMARK [3][-]{subsubsection.4.2.8}{Model - 8}{subsection.4.2}% 42
+\BOOKMARK [3][-]{subsubsection.4.2.9}{Model - 9}{subsection.4.2}% 43
+\BOOKMARK [3][-]{subsubsection.4.2.10}{Model - 10}{subsection.4.2}% 44
+\BOOKMARK [3][-]{subsubsection.4.2.11}{Model - 11}{subsection.4.2}% 45
+\BOOKMARK [3][-]{subsubsection.4.2.12}{Model - 12}{subsection.4.2}% 46
+\BOOKMARK [3][-]{subsubsection.4.2.13}{Model - 13}{subsection.4.2}% 47
+\BOOKMARK [3][-]{subsubsection.4.2.14}{Model - 14}{subsection.4.2}% 48
+\BOOKMARK [3][-]{subsubsection.4.2.15}{Model - 15}{subsection.4.2}% 49
+\BOOKMARK [3][-]{subsubsection.4.2.16}{Model - 16}{subsection.4.2}% 50
+\BOOKMARK [3][-]{subsubsection.4.2.17}{Model - 17}{subsection.4.2}% 51
+\BOOKMARK [3][-]{subsubsection.4.2.18}{Model - 18}{subsection.4.2}% 52
+\BOOKMARK [3][-]{subsubsection.4.2.19}{Model - 19}{subsection.4.2}% 53
+\BOOKMARK [3][-]{subsubsection.4.2.20}{Model - 20}{subsection.4.2}% 54
+\BOOKMARK [3][-]{subsubsection.4.2.21}{Model - 21}{subsection.4.2}% 55
+\BOOKMARK [3][-]{subsubsection.4.2.22}{Model - 22}{subsection.4.2}% 56
+\BOOKMARK [3][-]{subsubsection.4.2.23}{Model - 23}{subsection.4.2}% 57
+\BOOKMARK [3][-]{subsubsection.4.2.24}{Model - 24}{subsection.4.2}% 58
+\BOOKMARK [3][-]{subsubsection.4.2.25}{Model - 25}{subsection.4.2}% 59
+\BOOKMARK [3][-]{subsubsection.4.2.26}{Model - 26}{subsection.4.2}% 60
+\BOOKMARK [3][-]{subsubsection.4.2.27}{Model - 27}{subsection.4.2}% 61
+\BOOKMARK [3][-]{subsubsection.4.2.28}{Model - 28}{subsection.4.2}% 62
+\BOOKMARK [3][-]{subsubsection.4.2.29}{Model - 29}{subsection.4.2}% 63
+\BOOKMARK [3][-]{subsubsection.4.2.30}{Model - 30}{subsection.4.2}% 64
+\BOOKMARK [2][-]{subsection.4.3}{Single Factor Model for COoil2}{section.4}% 65
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Model - 1}{subsection.4.3}% 66
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Model - 2}{subsection.4.3}% 67
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Model - 3}{subsection.4.3}% 68
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Model - 4}{subsection.4.3}% 69
+\BOOKMARK [3][-]{subsubsection.4.3.5}{Model - 5}{subsection.4.3}% 70
+\BOOKMARK [3][-]{subsubsection.4.3.6}{Model - 6}{subsection.4.3}% 71
+\BOOKMARK [3][-]{subsubsection.4.3.7}{Model - 7}{subsection.4.3}% 72
+\BOOKMARK [3][-]{subsubsection.4.3.8}{Model - 8}{subsection.4.3}% 73
+\BOOKMARK [3][-]{subsubsection.4.3.9}{Model - 9}{subsection.4.3}% 74
+\BOOKMARK [3][-]{subsubsection.4.3.10}{Model - 10}{subsection.4.3}% 75
+\BOOKMARK [2][-]{subsection.4.4}{Two Factor Model for COoil2}{section.4}% 76
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Model - 1}{subsection.4.4}% 77
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Model - 2}{subsection.4.4}% 78
+\BOOKMARK [3][-]{subsubsection.4.4.3}{Model - 3}{subsection.4.4}% 79
+\BOOKMARK [3][-]{subsubsection.4.4.4}{Model - 4}{subsection.4.4}% 80
+\BOOKMARK [3][-]{subsubsection.4.4.5}{Model - 5}{subsection.4.4}% 81
+\BOOKMARK [3][-]{subsubsection.4.4.6}{Model - 6}{subsection.4.4}% 82
+\BOOKMARK [3][-]{subsubsection.4.4.7}{Model - 7}{subsection.4.4}% 83
+\BOOKMARK [3][-]{subsubsection.4.4.8}{Model - 8}{subsection.4.4}% 84
+\BOOKMARK [3][-]{subsubsection.4.4.9}{Model - 9}{subsection.4.4}% 85
+\BOOKMARK [3][-]{subsubsection.4.4.10}{Model - 10}{subsection.4.4}% 86
+\BOOKMARK [3][-]{subsubsection.4.4.11}{Model - 11}{subsection.4.4}% 87
+\BOOKMARK [3][-]{subsubsection.4.4.12}{Model - 12}{subsection.4.4}% 88
+\BOOKMARK [3][-]{subsubsection.4.4.13}{Model - 13}{subsection.4.4}% 89
+\BOOKMARK [3][-]{subsubsection.4.4.14}{Model - 14}{subsection.4.4}% 90
+\BOOKMARK [3][-]{subsubsection.4.4.15}{Model - 15}{subsection.4.4}% 91
+\BOOKMARK [3][-]{subsubsection.4.4.16}{Model - 16}{subsection.4.4}% 92
+\BOOKMARK [3][-]{subsubsection.4.4.17}{Model - 17}{subsection.4.4}% 93
+\BOOKMARK [3][-]{subsubsection.4.4.18}{Model - 18}{subsection.4.4}% 94
+\BOOKMARK [3][-]{subsubsection.4.4.19}{Model - 19}{subsection.4.4}% 95
+\BOOKMARK [3][-]{subsubsection.4.4.20}{Model - 20}{subsection.4.4}% 96
+\BOOKMARK [3][-]{subsubsection.4.4.21}{Model - 21}{subsection.4.4}% 97
+\BOOKMARK [3][-]{subsubsection.4.4.22}{Model - 22}{subsection.4.4}% 98
+\BOOKMARK [3][-]{subsubsection.4.4.23}{Model - 23}{subsection.4.4}% 99
+\BOOKMARK [3][-]{subsubsection.4.4.24}{Model - 24}{subsection.4.4}% 100
+\BOOKMARK [3][-]{subsubsection.4.4.25}{Model - 25}{subsection.4.4}% 101
+\BOOKMARK [3][-]{subsubsection.4.4.26}{Model - 26}{subsection.4.4}% 102
+\BOOKMARK [3][-]{subsubsection.4.4.27}{Model - 27}{subsection.4.4}% 103
+\BOOKMARK [3][-]{subsubsection.4.4.28}{Model - 28}{subsection.4.4}% 104
+\BOOKMARK [3][-]{subsubsection.4.4.29}{Model - 29}{subsection.4.4}% 105
+\BOOKMARK [3][-]{subsubsection.4.4.30}{Model - 30}{subsection.4.4}% 106
+\BOOKMARK [2][-]{subsection.4.5}{Single Factor Model for COnatgas}{section.4}% 107
+\BOOKMARK [3][-]{subsubsection.4.5.1}{Model - 1}{subsection.4.5}% 108
+\BOOKMARK [3][-]{subsubsection.4.5.2}{Model - 2}{subsection.4.5}% 109
+\BOOKMARK [3][-]{subsubsection.4.5.3}{Model - 3}{subsection.4.5}% 110
+\BOOKMARK [2][-]{subsection.4.6}{Two Factor Model for COnatgas}{section.4}% 111
+\BOOKMARK [3][-]{subsubsection.4.6.1}{Model - 1}{subsection.4.6}% 112
+\BOOKMARK [3][-]{subsubsection.4.6.2}{Model - 2}{subsection.4.6}% 113
+\BOOKMARK [3][-]{subsubsection.4.6.3}{Model - 3}{subsection.4.6}% 114
+\BOOKMARK [3][-]{subsubsection.4.6.4}{Model - 4}{subsection.4.6}% 115
+\BOOKMARK [3][-]{subsubsection.4.6.5}{Model - 5}{subsection.4.6}% 116
+\BOOKMARK [3][-]{subsubsection.4.6.6}{Model - 6}{subsection.4.6}% 117
+\BOOKMARK [3][-]{subsubsection.4.6.7}{Model - 7}{subsection.4.6}% 118
+\BOOKMARK [3][-]{subsubsection.4.6.8}{Model - 8}{subsection.4.6}% 119
+\BOOKMARK [3][-]{subsubsection.4.6.9}{Model - 9}{subsection.4.6}% 120
+\BOOKMARK [3][-]{subsubsection.4.6.10}{Model - 10}{subsection.4.6}% 121
+\BOOKMARK [3][-]{subsubsection.4.6.11}{Model - 11}{subsection.4.6}% 122
+\BOOKMARK [3][-]{subsubsection.4.6.12}{Model - 12}{subsection.4.6}% 123
+\BOOKMARK [3][-]{subsubsection.4.6.13}{Model - 13}{subsection.4.6}% 124
+\BOOKMARK [3][-]{subsubsection.4.6.14}{Model - 14}{subsection.4.6}% 125
+\BOOKMARK [3][-]{subsubsection.4.6.15}{Model - 15}{subsection.4.6}% 126
+\BOOKMARK [3][-]{subsubsection.4.6.16}{Model - 16}{subsection.4.6}% 127
+\BOOKMARK [3][-]{subsubsection.4.6.17}{Model - 17}{subsection.4.6}% 128
+\BOOKMARK [3][-]{subsubsection.4.6.18}{Model - 18}{subsection.4.6}% 129
+\BOOKMARK [3][-]{subsubsection.4.6.19}{Model - 19}{subsection.4.6}% 130
+\BOOKMARK [3][-]{subsubsection.4.6.20}{Model - 20}{subsection.4.6}% 131
+\BOOKMARK [3][-]{subsubsection.4.6.21}{Model - 21}{subsection.4.6}% 132
+\BOOKMARK [3][-]{subsubsection.4.6.22}{Model - 22}{subsection.4.6}% 133
+\BOOKMARK [3][-]{subsubsection.4.6.23}{Model - 23}{subsection.4.6}% 134
+\BOOKMARK [3][-]{subsubsection.4.6.24}{Model - 24}{subsection.4.6}% 135
+\BOOKMARK [3][-]{subsubsection.4.6.25}{Model - 25}{subsection.4.6}% 136
+\BOOKMARK [3][-]{subsubsection.4.6.26}{Model - 26}{subsection.4.6}% 137
+\BOOKMARK [3][-]{subsubsection.4.6.27}{Model - 27}{subsection.4.6}% 138
+\BOOKMARK [3][-]{subsubsection.4.6.28}{Model - 28}{subsection.4.6}% 139
+\BOOKMARK [3][-]{subsubsection.4.6.29}{Model - 29}{subsection.4.6}% 140
+\BOOKMARK [3][-]{subsubsection.4.6.30}{Model - 30}{subsection.4.6}% 141
+\BOOKMARK [2][-]{subsection.4.7}{Single Factor Model for COgasoline}{section.4}% 142
+\BOOKMARK [3][-]{subsubsection.4.7.1}{Model - 1}{subsection.4.7}% 143
+\BOOKMARK [3][-]{subsubsection.4.7.2}{Model - 2}{subsection.4.7}% 144
+\BOOKMARK [3][-]{subsubsection.4.7.3}{Model - 3}{subsection.4.7}% 145
+\BOOKMARK [3][-]{subsubsection.4.7.4}{Model - 4}{subsection.4.7}% 146
+\BOOKMARK [3][-]{subsubsection.4.7.5}{Model - 5}{subsection.4.7}% 147
+\BOOKMARK [3][-]{subsubsection.4.7.6}{Model - 6}{subsection.4.7}% 148
+\BOOKMARK [3][-]{subsubsection.4.7.7}{Model - 7}{subsection.4.7}% 149
+\BOOKMARK [3][-]{subsubsection.4.7.8}{Model - 8}{subsection.4.7}% 150
+\BOOKMARK [2][-]{subsection.4.8}{Two Factor Model for COgasoline}{section.4}% 151
+\BOOKMARK [3][-]{subsubsection.4.8.1}{Model - 1}{subsection.4.8}% 152
+\BOOKMARK [3][-]{subsubsection.4.8.2}{Model - 2}{subsection.4.8}% 153
+\BOOKMARK [3][-]{subsubsection.4.8.3}{Model - 3}{subsection.4.8}% 154
+\BOOKMARK [3][-]{subsubsection.4.8.4}{Model - 4}{subsection.4.8}% 155
+\BOOKMARK [3][-]{subsubsection.4.8.5}{Model - 5}{subsection.4.8}% 156
+\BOOKMARK [3][-]{subsubsection.4.8.6}{Model - 6}{subsection.4.8}% 157
+\BOOKMARK [3][-]{subsubsection.4.8.7}{Model - 7}{subsection.4.8}% 158
+\BOOKMARK [3][-]{subsubsection.4.8.8}{Model - 8}{subsection.4.8}% 159
+\BOOKMARK [3][-]{subsubsection.4.8.9}{Model - 9}{subsection.4.8}% 160
+\BOOKMARK [3][-]{subsubsection.4.8.10}{Model - 10}{subsection.4.8}% 161
+\BOOKMARK [3][-]{subsubsection.4.8.11}{Model - 11}{subsection.4.8}% 162
+\BOOKMARK [3][-]{subsubsection.4.8.12}{Model - 12}{subsection.4.8}% 163
+\BOOKMARK [3][-]{subsubsection.4.8.13}{Model - 13}{subsection.4.8}% 164
+\BOOKMARK [3][-]{subsubsection.4.8.14}{Model - 14}{subsection.4.8}% 165
+\BOOKMARK [3][-]{subsubsection.4.8.15}{Model - 15}{subsection.4.8}% 166
+\BOOKMARK [3][-]{subsubsection.4.8.16}{Model - 16}{subsection.4.8}% 167
+\BOOKMARK [3][-]{subsubsection.4.8.17}{Model - 17}{subsection.4.8}% 168
+\BOOKMARK [3][-]{subsubsection.4.8.18}{Model - 18}{subsection.4.8}% 169
+\BOOKMARK [3][-]{subsubsection.4.8.19}{Model - 19}{subsection.4.8}% 170
+\BOOKMARK [3][-]{subsubsection.4.8.20}{Model - 20}{subsection.4.8}% 171
+\BOOKMARK [3][-]{subsubsection.4.8.21}{Model - 21}{subsection.4.8}% 172
+\BOOKMARK [3][-]{subsubsection.4.8.22}{Model - 22}{subsection.4.8}% 173
+\BOOKMARK [3][-]{subsubsection.4.8.23}{Model - 23}{subsection.4.8}% 174
+\BOOKMARK [3][-]{subsubsection.4.8.24}{Model - 24}{subsection.4.8}% 175
+\BOOKMARK [3][-]{subsubsection.4.8.25}{Model - 25}{subsection.4.8}% 176
+\BOOKMARK [3][-]{subsubsection.4.8.26}{Model - 26}{subsection.4.8}% 177
+\BOOKMARK [3][-]{subsubsection.4.8.27}{Model - 27}{subsection.4.8}% 178
+\BOOKMARK [3][-]{subsubsection.4.8.28}{Model - 28}{subsection.4.8}% 179
+\BOOKMARK [3][-]{subsubsection.4.8.29}{Model - 29}{subsection.4.8}% 180
+\BOOKMARK [3][-]{subsubsection.4.8.30}{Model - 30}{subsection.4.8}% 181
+\BOOKMARK [2][-]{subsection.4.9}{Single Factor Model for COgold}{section.4}% 182
+\BOOKMARK [3][-]{subsubsection.4.9.1}{Model - 1}{subsection.4.9}% 183
+\BOOKMARK [3][-]{subsubsection.4.9.2}{Model - 2}{subsection.4.9}% 184
+\BOOKMARK [3][-]{subsubsection.4.9.3}{Model - 3}{subsection.4.9}% 185
+\BOOKMARK [3][-]{subsubsection.4.9.4}{Model - 4}{subsection.4.9}% 186
+\BOOKMARK [3][-]{subsubsection.4.9.5}{Model - 5}{subsection.4.9}% 187
+\BOOKMARK [3][-]{subsubsection.4.9.6}{Model - 6}{subsection.4.9}% 188
+\BOOKMARK [2][-]{subsection.4.10}{Two Factor Model for COgold}{section.4}% 189
+\BOOKMARK [3][-]{subsubsection.4.10.1}{Model - 1}{subsection.4.10}% 190
+\BOOKMARK [3][-]{subsubsection.4.10.2}{Model - 2}{subsection.4.10}% 191
+\BOOKMARK [3][-]{subsubsection.4.10.3}{Model - 3}{subsection.4.10}% 192
+\BOOKMARK [3][-]{subsubsection.4.10.4}{Model - 4}{subsection.4.10}% 193
+\BOOKMARK [3][-]{subsubsection.4.10.5}{Model - 5}{subsection.4.10}% 194
+\BOOKMARK [3][-]{subsubsection.4.10.6}{Model - 6}{subsection.4.10}% 195
+\BOOKMARK [3][-]{subsubsection.4.10.7}{Model - 7}{subsection.4.10}% 196
+\BOOKMARK [3][-]{subsubsection.4.10.8}{Model - 8}{subsection.4.10}% 197
+\BOOKMARK [3][-]{subsubsection.4.10.9}{Model - 9}{subsection.4.10}% 198
+\BOOKMARK [3][-]{subsubsection.4.10.10}{Model - 10}{subsection.4.10}% 199
+\BOOKMARK [3][-]{subsubsection.4.10.11}{Model - 11}{subsection.4.10}% 200
+\BOOKMARK [3][-]{subsubsection.4.10.12}{Model - 12}{subsection.4.10}% 201
+\BOOKMARK [3][-]{subsubsection.4.10.13}{Model - 13}{subsection.4.10}% 202
+\BOOKMARK [3][-]{subsubsection.4.10.14}{Model - 14}{subsection.4.10}% 203
+\BOOKMARK [3][-]{subsubsection.4.10.15}{Model - 15}{subsection.4.10}% 204
+\BOOKMARK [3][-]{subsubsection.4.10.16}{Model - 16}{subsection.4.10}% 205
+\BOOKMARK [3][-]{subsubsection.4.10.17}{Model - 17}{subsection.4.10}% 206
+\BOOKMARK [3][-]{subsubsection.4.10.18}{Model - 18}{subsection.4.10}% 207
+\BOOKMARK [3][-]{subsubsection.4.10.19}{Model - 19}{subsection.4.10}% 208
+\BOOKMARK [3][-]{subsubsection.4.10.20}{Model - 20}{subsection.4.10}% 209
+\BOOKMARK [3][-]{subsubsection.4.10.21}{Model - 21}{subsection.4.10}% 210
+\BOOKMARK [3][-]{subsubsection.4.10.22}{Model - 22}{subsection.4.10}% 211
+\BOOKMARK [3][-]{subsubsection.4.10.23}{Model - 23}{subsection.4.10}% 212
+\BOOKMARK [3][-]{subsubsection.4.10.24}{Model - 24}{subsection.4.10}% 213
+\BOOKMARK [3][-]{subsubsection.4.10.25}{Model - 25}{subsection.4.10}% 214
+\BOOKMARK [3][-]{subsubsection.4.10.26}{Model - 26}{subsection.4.10}% 215
+\BOOKMARK [3][-]{subsubsection.4.10.27}{Model - 27}{subsection.4.10}% 216
+\BOOKMARK [3][-]{subsubsection.4.10.28}{Model - 28}{subsection.4.10}% 217
+\BOOKMARK [3][-]{subsubsection.4.10.29}{Model - 29}{subsection.4.10}% 218
+\BOOKMARK [3][-]{subsubsection.4.10.30}{Model - 30}{subsection.4.10}% 219
+\BOOKMARK [2][-]{subsection.4.11}{Single Factor Model for COsilver}{section.4}% 220
+\BOOKMARK [3][-]{subsubsection.4.11.1}{Model - 1}{subsection.4.11}% 221
+\BOOKMARK [3][-]{subsubsection.4.11.2}{Model - 2}{subsection.4.11}% 222
+\BOOKMARK [2][-]{subsection.4.12}{Two Factor Model for COsilver}{section.4}% 223
+\BOOKMARK [2][-]{subsection.4.13}{Single Factor Model for COgrains}{section.4}% 224
+\BOOKMARK [3][-]{subsubsection.4.13.1}{Model - 1}{subsection.4.13}% 225
+\BOOKMARK [2][-]{subsection.4.14}{Two Factor Model for COgrains}{section.4}% 226

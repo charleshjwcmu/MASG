@@ -1,0 +1,276 @@
+\documentclass{article}
+\input{./GlobalParameters.tex}
+\usepackage{graphicx} %import png files
+\usepackage[space]{grffile} %deal with path with space
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\usepackage[top=3cm,left=1cm,right=2cm,bottom=2cm]{geometry} %page set
+\usepackage{pdflscape}
+\usepackage{float} %fix
+\usepackage[bookmarks]{hyperref}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{xcolor}
+\definecolor{color_gold}{HTML}{0055ad}
+\usepackage{tikz}%design for front page
+\newcommand\pagetitlecenter[1] {{\Large{\textbf{#1}}}}
+\usepackage{longtable}
+\usepackage{lscape}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\usepackage{tabularx}
+\usepackage{url}
+
+\usepackage{sectsty}
+\sectionfont{\color{color_gold}}
+\subsectionfont{\color{color_gold}}
+
+\usepackage{fancyhdr}
+\fancypagestyle{myheader} {
+  \fancyhf{}% Clear all headers/footers
+  \fancyheadoffset{0cm}  
+  \fancyhead[R]{\today}% Header Centred
+  \fancyhead[L]{
+  	\begin{picture}(0,0)
+ 	\put(0,0){\IfFileExists{./Picture/Logo.png}{\includegraphics[width=2cm]{./Picture/Logo.png}}{}}
+  	\end{picture}
+  	}% Header Centred
+  \fancyfoot[C]{-\thepage-}% Footer Centred
+  \fancyfoot[R]{Confidential}% Footer Centred
+  \renewcommand{\headrulewidth}{1pt}% 2pt header rule
+  \renewcommand{\headrule}{\hbox to\headwidth{%
+    \color{color_gold}\leaders\hrule height \headrulewidth\hfill}}
+  \renewcommand{\footrulewidth}{0pt}% No footer rule
+}
+\pagestyle{myheader}
+
+% ------------------------------------------------------------------------------
+% Title Page Definitions (do not change this)
+% ------------------------------------------------------------------------------
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\makeatletter							% Title
+\def\printtitle{%
+    {\@title\par}}
+\makeatother
+
+\makeatletter							% Author
+\def\printauthor{%
+    {\centering \large \@author}}
+\makeatother
+
+% ------------------------------------------------------------------------------
+% Metadata (Change this)
+% ------------------------------------------------------------------------------
+\title{	
+\normalsize \textsc{}% Subtitle of the
+% document
+		 	\\[4.0cm]													% 2cm spacing
+%			\HRule{0.5pt} \\										% Upper rule
+			\Huge \textbf{\color{color_gold}\uppercase{Dependent Variables}\\
+			\\
+			%\large Data Version: \version
+			}
+			% Title
+%			\HRule{2pt} \\ 								% Lower rule + 0.5cm spacing
+			\\[0.5cm]
+			\normalsize \today									% Todays date
+		}
+
+\author{
+		Principal Financial Group\\
+		Carnegie Mellon University\\
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\thispagestyle{empty}
+\IfFileExists{./Picture/titleheader.png}{
+\begin{tikzpicture}[remember picture, overlay]
+	\node[opacity=1, shift={(,-2.9cm)}] at (current page.north) {
+	\includegraphics[width=\paperwidth,keepaspectratio]{./Picture/titleheader.png}
+	};
+\end{tikzpicture}
+}{}
+
+\printtitle									% Print the title data as defined above
+  	\vfill
+\printauthor
+\newpage
+
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+
+%%%%%%%Done: PCA for Clusters
+\IfFileExists{\OutptPCA/ClustersAll.tex}{
+\input{\OutptPCA/ClustersAll.tex}
+
+\section{PCA for Clusters}
+	\IfFileExists{\OutptPCA/EigenvectorAndMultiplier.tex}{
+	\subsection{Summary of PCA Analysis}
+		\input{\OutptPCA/EigenvectorAndMultiplier.tex}\newpage
+	}{}
+
+	\foreach \cluster in \CLUSTERS {
+		\edef\FileNameClusterLevel{\OutptPCA/\cluster_leveldata.png}
+		\edef\FileNameClusterDiff{\OutptPCA/\cluster_diffdata.png}
+		\edef\TableNameClusterLevel{\OutptPCA/\cluster_leveldata.png}
+		\edef\TableNameClusterDiff{\OutptPCA/\cluster_diffdata.png}
+
+		\edef\FileNameClusterPCDiff{\OutptPCA/\cluster_pc1data.png}
+		\edef\FileNameClusterPCLevel{\OutptPCA/\cluster_pc1level.png}
+
+		\edef\FileNameClusterPCOutput{\OutptPCA/\cluster_PCAOutput.tex}
+
+		\subsection{Cluster: $\cluster$}
+	 	\IfFileExists{\FileNameClusterLevel}{
+		\begin{tabularx}{\textwidth}{cc}
+			\IfFileExists{\FileNameClusterLevel}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterLevel}}{}&
+			\IfFileExists{\FileNameClusterDiff}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterDiff}}{}\\
+			\IfFileExists{\FileNameClusterPCLevel}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterPCLevel}}{}&
+			\IfFileExists{\FileNameClusterPCDiff}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterPCDiff}}{}\\
+			\IfFileExists{\FileNameClusterPCOutput}{\input{\FileNameClusterPCOutput}}{}&\\
+		\end{tabularx}
+	
+		\edef\FileNameClusterRetainedCorrelationKendall{\OutptPCA/\cluster_RetainedCorrelation_kendall.png}
+		\edef\FileNameClusterRetainedCorrelationSpearman{\OutptPCA/\cluster_RetainedCorrelation_spearman.png}
+		\begin{tabularx}{\textwidth}{c}
+		\IfFileExists{\FileNameClusterRetainedCorrelationKendall}{\includegraphics[width=\textwidth,height=0.5\textheight,keepaspectratio]{\FileNameClusterRetainedCorrelationKendall}}{}\\
+		\IfFileExists{\FileNameClusterRetainedCorrelationSpearman}{\includegraphics[width=\textwidth,height=0.5\textheight,keepaspectratio]{\FileNameClusterRetainedCorrelationSpearman}}{}
+		\end{tabularx}
+		\newpage
+	 	}{}
+	 }
+}{}
+
+
+%%%%%%%Done: PCA for Clusters
+\IfFileExists{\OutptPCAtwo/ClustersAll.tex}{
+\input{\OutptPCAtwo/ClustersAll.tex}
+
+\section{PCA for Clusters - Model 2}
+	\IfFileExists{\OutptPCAtwo/EigenvectorAndMultiplier.tex}{
+	\subsection{Summary of PCA Analysis}
+		\input{\OutptPCAtwo/EigenvectorAndMultiplier.tex}\newpage
+	}{}
+
+	\foreach \cluster in \CLUSTERS {
+		\edef\FileNameClusterLevel{\OutptPCAtwo/\cluster_leveldata.png}
+		\edef\FileNameClusterDiff{\OutptPCAtwo/\cluster_diffdata.png}
+		\edef\TableNameClusterLevel{\OutptPCAtwo/\cluster_leveldata.png}
+		\edef\TableNameClusterDiff{\OutptPCAtwo/\cluster_diffdata.png}
+
+		\edef\FileNameClusterPCDiff{\OutptPCAtwo/\cluster_pc1data.png}
+		\edef\FileNameClusterPCLevel{\OutptPCAtwo/\cluster_pc1level.png}
+
+		\edef\FileNameClusterPCOutput{\OutptPCAtwo/\cluster_PCAOutput.tex}
+
+		\subsection{Cluster: $\cluster$}
+	 	\IfFileExists{\FileNameClusterLevel}{
+		\begin{tabularx}{\textwidth}{cc}
+			\IfFileExists{\FileNameClusterLevel}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterLevel}}{}&
+			\IfFileExists{\FileNameClusterDiff}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterDiff}}{}\\
+			\IfFileExists{\FileNameClusterPCLevel}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterPCLevel}}{}&
+			\IfFileExists{\FileNameClusterPCDiff}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterPCDiff}}{}\\
+			\IfFileExists{\FileNameClusterPCOutput}{\input{\FileNameClusterPCOutput}}{}&\\
+		\end{tabularx}
+	
+		\edef\FileNameClusterRetainedCorrelationKendall{\OutptPCAtwo/\cluster_RetainedCorrelation_kendall.png}
+		\edef\FileNameClusterRetainedCorrelationSpearman{\OutptPCAtwo/\cluster_RetainedCorrelation_spearman.png}
+		\begin{tabularx}{\textwidth}{c}
+		\IfFileExists{\FileNameClusterRetainedCorrelationKendall}{\includegraphics[width=\textwidth,height=0.5\textheight,keepaspectratio]{\FileNameClusterRetainedCorrelationKendall}}{}\\
+		\IfFileExists{\FileNameClusterRetainedCorrelationSpearman}{\includegraphics[width=\textwidth,height=0.5\textheight,keepaspectratio]{\FileNameClusterRetainedCorrelationSpearman}}{}
+		\end{tabularx}
+		\newpage
+	 	}{}
+	 }
+}{}
+
+%%%%%%%Done: PCA for Clusters
+\IfFileExists{\OutptPCAthree/ClustersAll.tex}{
+\input{\OutptPCAthree/ClustersAll.tex}
+
+\section{PCA for Clusters - Model 3}
+	\IfFileExists{\OutptPCAthree/EigenvectorAndMultiplier.tex}{
+	\subsection{Summary of PCA Analysis}
+		\input{\OutptPCAthree/EigenvectorAndMultiplier.tex}\newpage
+	}{}
+
+	\foreach \cluster in \CLUSTERS {
+		\edef\FileNameClusterLevel{\OutptPCAthree/\cluster_leveldata.png}
+		\edef\FileNameClusterDiff{\OutptPCAthree/\cluster_diffdata.png}
+		\edef\TableNameClusterLevel{\OutptPCAthree/\cluster_leveldata.png}
+		\edef\TableNameClusterDiff{\OutptPCAthree/\cluster_diffdata.png}
+
+		\edef\FileNameClusterPCDiff{\OutptPCAthree/\cluster_pc1data.png}
+		\edef\FileNameClusterPCLevel{\OutptPCAthree/\cluster_pc1level.png}
+
+		\edef\FileNameClusterPCOutput{\OutptPCAthree/\cluster_PCAOutput.tex}
+
+		\subsection{Cluster: $\cluster$}
+	 	\IfFileExists{\FileNameClusterLevel}{
+		\begin{tabularx}{\textwidth}{cc}
+			\IfFileExists{\FileNameClusterLevel}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterLevel}}{}&
+			\IfFileExists{\FileNameClusterDiff}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterDiff}}{}\\
+			\IfFileExists{\FileNameClusterPCLevel}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterPCLevel}}{}&
+			\IfFileExists{\FileNameClusterPCDiff}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterPCDiff}}{}\\
+			\IfFileExists{\FileNameClusterPCOutput}{\input{\FileNameClusterPCOutput}}{}&\\
+		\end{tabularx}
+	
+		\edef\FileNameClusterRetainedCorrelationKendall{\OutptPCAthree/\cluster_RetainedCorrelation_kendall.png}
+		\edef\FileNameClusterRetainedCorrelationSpearman{\OutptPCAthree/\cluster_RetainedCorrelation_spearman.png}
+		\begin{tabularx}{\textwidth}{c}
+		\IfFileExists{\FileNameClusterRetainedCorrelationKendall}{\includegraphics[width=\textwidth,height=0.5\textheight,keepaspectratio]{\FileNameClusterRetainedCorrelationKendall}}{}\\
+		\IfFileExists{\FileNameClusterRetainedCorrelationSpearman}{\includegraphics[width=\textwidth,height=0.5\textheight,keepaspectratio]{\FileNameClusterRetainedCorrelationSpearman}}{}
+		\end{tabularx}
+		\newpage
+	 	}{}
+	 }
+}{}
+
+%%%%%%%Done: PCA for Clusters
+\IfFileExists{\OutptPCAfour/ClustersAll.tex}{
+\input{\OutptPCAfour/ClustersAll.tex}
+
+\section{PCA for Clusters - Model 4}
+	\IfFileExists{\OutptPCAfour/EigenvectorAndMultiplier.tex}{
+	\subsection{Summary of PCA Analysis}
+		\input{\OutptPCAfour/EigenvectorAndMultiplier.tex}\newpage
+	}{}
+
+	\foreach \cluster in \CLUSTERS {
+		\edef\FileNameClusterLevel{\OutptPCAfour/\cluster_leveldata.png}
+		\edef\FileNameClusterDiff{\OutptPCAfour/\cluster_diffdata.png}
+		\edef\TableNameClusterLevel{\OutptPCAfour/\cluster_leveldata.png}
+		\edef\TableNameClusterDiff{\OutptPCAfour/\cluster_diffdata.png}
+
+		\edef\FileNameClusterPCDiff{\OutptPCAfour/\cluster_pc1data.png}
+		\edef\FileNameClusterPCLevel{\OutptPCAfour/\cluster_pc1level.png}
+
+		\edef\FileNameClusterPCOutput{\OutptPCAfour/\cluster_PCAOutput.tex}
+
+		\subsection{Cluster: $\cluster$}
+	 	\IfFileExists{\FileNameClusterLevel}{
+		\begin{tabularx}{\textwidth}{cc}
+			\IfFileExists{\FileNameClusterLevel}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterLevel}}{}&
+			\IfFileExists{\FileNameClusterDiff}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterDiff}}{}\\
+			\IfFileExists{\FileNameClusterPCLevel}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterPCLevel}}{}&
+			\IfFileExists{\FileNameClusterPCDiff}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterPCDiff}}{}\\
+			\IfFileExists{\FileNameClusterPCOutput}{\input{\FileNameClusterPCOutput}}{}&\\
+		\end{tabularx}
+	
+		\edef\FileNameClusterRetainedCorrelationKendall{\OutptPCAfour/\cluster_RetainedCorrelation_kendall.png}
+		\edef\FileNameClusterRetainedCorrelationSpearman{\OutptPCAfour/\cluster_RetainedCorrelation_spearman.png}
+		\begin{tabularx}{\textwidth}{c}
+		\IfFileExists{\FileNameClusterRetainedCorrelationKendall}{\includegraphics[width=\textwidth,height=0.5\textheight,keepaspectratio]{\FileNameClusterRetainedCorrelationKendall}}{}\\
+		\IfFileExists{\FileNameClusterRetainedCorrelationSpearman}{\includegraphics[width=\textwidth,height=0.5\textheight,keepaspectratio]{\FileNameClusterRetainedCorrelationSpearman}}{}
+		\end{tabularx}
+		\newpage
+	 	}{}
+	 }
+}{}
+
+
+\end{document} 

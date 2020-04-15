@@ -1,0 +1,429 @@
+\documentclass{article}
+\input{./GlobalParameters.tex}
+\usepackage{graphicx} %import png files
+\usepackage[space]{grffile} %deal with path with space
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\usepackage[top=3cm,left=1cm,right=2cm,bottom=2cm]{geometry} %page set
+\usepackage{pdflscape}
+\usepackage{float} %fix
+\usepackage[bookmarks]{hyperref}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{xcolor}
+\definecolor{color_gold}{HTML}{0055ad}
+\usepackage{tikz}%design for front page
+\newcommand\pagetitlecenter[1] {{\Large{\textbf{#1}}}}
+\usepackage{longtable}
+\usepackage{lscape}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\usepackage{tabularx}
+\usepackage{url}
+
+\usepackage{sectsty}
+\sectionfont{\color{color_gold}}
+\subsectionfont{\color{color_gold}}
+
+\usepackage{fancyhdr}
+\fancypagestyle{myheader} {
+  \fancyhf{}% Clear all headers/footers
+  \fancyheadoffset{0cm}  
+  \fancyhead[R]{\today}% Header Centred
+  \fancyhead[L]{
+  	\begin{picture}(0,0)
+ 	\put(0,0){\IfFileExists{./Picture/Logo.png}{\includegraphics[width=2cm]{./Picture/Logo.png}}{}}
+  	\end{picture}
+  	}% Header Centred
+  \fancyfoot[C]{-\thepage-}% Footer Centred
+  \fancyfoot[R]{Confidential}% Footer Centred
+  \renewcommand{\headrulewidth}{1pt}% 2pt header rule
+  \renewcommand{\headrule}{\hbox to\headwidth{%
+    \color{color_gold}\leaders\hrule height \headrulewidth\hfill}}
+  \renewcommand{\footrulewidth}{0pt}% No footer rule
+}
+
+\newcommand\CLUSTER{AD SBA,AD CALL}% No footer rule
+
+\pagestyle{myheader}
+
+% ------------------------------------------------------------------------------
+% Title Page Definitions (do not change this)
+% ------------------------------------------------------------------------------
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\makeatletter							% Title
+\def\printtitle{%
+    {\@title\par}}
+\makeatother
+
+\makeatletter							% Author
+\def\printauthor{%
+    {\centering \large \@author}}
+\makeatother
+
+% ------------------------------------------------------------------------------
+% Metadata (Change this)
+% ------------------------------------------------------------------------------
+\title{	
+\normalsize \textsc{}% Subtitle of the
+% document
+		 	\\[4.0cm]													% 2cm spacing
+%			\HRule{0.5pt} \\										% Upper rule
+			\Huge \textbf{\color{color_gold}\uppercase{Asset Class Package - \ac}\\
+			\\
+			%\large Data Version: \version
+			}
+			% Title
+%			\HRule{2pt} \\ 								% Lower rule + 0.5cm spacing
+			\\[0.5cm]
+			\normalsize \today									% Todays date
+		}
+
+\author{
+		Principal Financial Group\\
+		Carnegie Mellon University\\
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\thispagestyle{empty}
+\IfFileExists{./Picture/titleheader.png}{
+\begin{tikzpicture}[remember picture, overlay]
+	\node[opacity=1, shift={(,-2.9cm)}] at (current page.north) {
+	\includegraphics[width=\paperwidth,keepaspectratio]{./Picture/titleheader.png}
+	};
+\end{tikzpicture}
+}{}
+
+\printtitle									% Print the title data as defined above
+  	\vfill
+\printauthor
+\newpage
+
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+
+\edef\FileNameACGlobalParameter{./ACParameters/\ac.tex}
+
+\IfFileExists{\FileNameACGlobalParameter} {
+	\input{\FileNameACGlobalParameter}
+	
+	%%%%%%%%%%%%%%%%%CSI Mapping%%%%%%%%%%%%%%%
+	\begin{landscape}
+	\section{Credit Spreads Indexes}
+	\subsection{Summary of Credit Spread Indexes}
+
+	\edef\FileNameACCSI{./ACParameters/\ac_mapping.tex}
+	\IfFileExists{\FileNameACCSI}{
+		\input{\FileNameACCSI}
+		\newpage
+	}{}
+	\end{landscape}
+
+	\foreach \csi in \Curves {
+	\edef\FileNameCurveInfo{\OutptCurveInfo/\csi.png}
+	\edef\FileNameCurveInfoDaily{\OutptCurveInfo/\csi_daily.png}
+	\edef\FileNameCurveInfoDailyOutlierRemoved{\OutptCurveInfo/\csi_daily_outliers_removed.png}
+	\edef\FileNameCurveInfoDailyOverride{\OutptCurveInfo/\csi_daily_override.png}
+	\edef\FileNameCurveInfoComparison{\OutptCurveInfo/\csi-Comparison.png}
+	\edef\FileNameCurveInfoComparisonDiff{\OutptCurveInfo/\csi-Comparison-Diff.png}
+	\edef\TableNameCurveInfoComparison{\OutptCurveInfo/\csi-Comparison.tex}
+
+	%\subsection{CSI}
+	\subsection{History: $\csi$}\\
+
+	Current Version is \CurrentVersion. Prior Version is \PriorVersion.
+
+	\begin{tabularx}{\textwidth}{cc}
+ 		\IfFileExists{\FileNameCurveInfoDaily}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameCurveInfoDaily}}{}&
+			\IfFileExists{\FileNameCurveInfoDailyOutlierRemoved}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameCurveInfoDailyOutlierRemoved}}{}\\
+ 		\IfFileExists{\FileNameCurveInfoDailyOverride}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameCurveInfoDailyOverride}}{}&\\
+ 		\IfFileExists{\FileNameCurveInfoComparisonDiff}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameCurveInfoComparisonDiff}}{}&
+ 			\IfFileExists{\FileNameCurveInfoComparison}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameCurveInfoComparison}}{}\\
+	\end{tabularx}
+	\IfFileExists{\TableNameCurveInfoComparison}{\input{\TableNameCurveInfoComparison}}{}
+	\newpage
+	}
+
+	%%%%%%%%%%%%%%%%%Cluster Analysis%%%%%%%%%%%%%%%	
+	\IfFileExists{\OutptClusterAnalysis/AssetClassAll.tex}{
+		\section{Clusters Analysis of CSI}
+			\input{\OutptClusterAnalysis/AssetClassAll.tex}
+		
+			\foreach \assetclass in \ASSETCLASS{
+			% OutptClusterAnalysis
+			\edef\FileNameClusterInfo{\OutptClusterAnalysis/clustering_result-\assetclass-trend.png}
+			\edef\FileNameClusterHeatmap{\OutptClusterAnalysis/clustering_result-\assetclass-heatmap.png}
+			\edef\FileNameClusterData{\OutptClusterAnalysis/\assetclass-diffdata.tex}
+			\edef\FileNameClusterClassification{\OutptClusterAnalysis/clustering_result-\assetclass-matrix.tex}	
+		 	
+			\IfFileExists{\FileNameClusterInfo}{
+			\subsection{Asset Class: $\assetclass$}
+			\begin{tabularx}{\textwidth}{cc}
+				\IfFileExists{\FileNameClusterInfo}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterInfo}}{}&
+				\IfFileExists{\FileNameClusterHeatmap}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterHeatmap}}{}\\
+			\end{tabularx}
+			\\
+			{\footnotesize
+		 		\IfFileExists{\FileNameClusterClassification}{\input{\FileNameClusterClassification}}{}
+			}
+			\newpage
+		 	}{}
+		}
+	}{}
+	%%%%%%%%%%%%%%%%% PCA for Clusters%%%%%%%%%%%%%%%
+	\section{PCA for Clusters}
+%	\IfFileExists{\OutptPCA/EigenvectorAndMultiplier.tex}{
+%	\subsection{Summary of PCA Analysis}
+%		\input{\OutptPCA/EigenvectorAndMultiplier.tex}\newpage
+%	}{}
+
+	\foreach \cluster in \CLUSTERS {
+
+
+		\IfFileExists{\OutptPCA/\cluster_leveldata.png} {
+			\subsection{Cluster: $\cluster$}
+			\newcommand\outputPCA{\OutptPCA}
+		}{
+			\IfFileExists{\OutptPCAtwo/\cluster_leveldata.png} {
+				\subsection{Alternative Cluster: $\cluster$}
+				\newcommand\outputPCA{\OutptPCAtwo}
+			}{
+				\IfFileExists{\OutptPCAthree/\cluster_leveldata.png} {
+					\subsection{Alternative Cluster: $\cluster$}
+					\newcommand\outputPCA{\OutptPCAthree}
+				}{
+					\IfFileExists{\OutptPCAfour/\cluster_leveldata.png} {
+						\subsection{Alternative Cluster: $\cluster$}
+						\newcommand\outputPCA{\OutptPCAfour}
+					}{
+						\newcommand\outputPCA{\OutptPCA}
+					}	
+				}
+			}
+		}
+		\edef\FileNameClusterLevel{\outputPCA/\cluster_leveldata.png}
+		\edef\FileNameClusterDiff{\outputPCA/\cluster_diffdata.png}
+		\edef\TableNameClusterLevel{\outputPCA/\cluster_leveldata.png}
+		\edef\TableNameClusterDiff{\outputPCA/\cluster_diffdata.png}
+		\edef\FileNameClusterPCDiff{\outputPCA/\cluster_pc1data.png}
+		\edef\FileNameClusterPCLevel{\outputPCA/\cluster_pc1level.png}
+		\edef\FileNameClusterPCOutput{\outputPCA/\cluster_PCAOutput.tex}
+
+	 	\IfFileExists{\FileNameClusterLevel}{
+		\begin{tabularx}{\textwidth}{cc}
+			\IfFileExists{\FileNameClusterLevel}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterLevel}}{}&
+			\IfFileExists{\FileNameClusterDiff}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterDiff}}{}\\
+			\IfFileExists{\FileNameClusterPCLevel}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterPCLevel}}{}&
+			\IfFileExists{\FileNameClusterPCDiff}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameClusterPCDiff}}{}\\
+			\IfFileExists{\FileNameClusterPCOutput}{\input{\FileNameClusterPCOutput}}{}&\\
+		\end{tabularx}
+	
+		\edef\FileNameClusterRetainedCorrelationKendall{\outputPCA/\cluster_RetainedCorrelation_kendall.png}
+		\edef\FileNameClusterRetainedCorrelationSpearman{\outputPCA/\cluster_RetainedCorrelation_spearman.png}
+		\begin{tabularx}{\textwidth}{c}
+		\IfFileExists{\FileNameClusterRetainedCorrelationKendall}{\includegraphics[width=\textwidth,height=0.5\textheight,keepaspectratio]{\FileNameClusterRetainedCorrelationKendall}}{}\\
+		\IfFileExists{\FileNameClusterRetainedCorrelationSpearman}{\includegraphics[width=\textwidth,height=0.5\textheight,keepaspectratio]{\FileNameClusterRetainedCorrelationSpearman}}{}
+		\end{tabularx}
+		\newpage
+	 	}{}
+	 }
+
+	%%%%%%%%%%%%%%%%% Model Specification%%%%%%%%%%%%%%%
+	\begin{landscape}
+	\section{Variable Selection}
+
+	\foreach \CLUSTER in \CLUSTERS {
+
+		\subsection{Single Factor Model for \CLUSTER}
+		\edef\FileNameRegSFA{\OutptSFA/SimpleReg-\CLUSTER.tex}
+		\IfFileExists{\FileNameRegSFA} {
+		{\footnotesize
+			\input{\FileNameRegSFA}
+			\newpage
+		}
+		}{}
+	
+		\subsection{Two Factor Model for \CLUSTER}
+		\edef\FileNameRegMFA{\OutptMFA/\CLUSTER/MFA_\CLUSTER.tex}
+		\edef\FileNameRegMFARelevant{\OutptMFA/\CLUSTER/MFA_RelevantVariables_\CLUSTER.tex}
+
+		\IfFileExists{\FileNameRegMFA} {
+		{\footnotesize
+			\input{\FileNameRegMFA}
+			\\
+			\input{\FileNameRegMFARelevant}
+		}
+			\newpage
+		}{}
+	}
+	\end{landscape}
+	%%%%%%%%%%%%%%%%% Final Regression for Clusters%%%%%%%%%%%%%%%
+	\IfFileExists{\OutptFcst/ClustersAll.tex}{
+		\input{\OutptFcst/ClustersAll.tex}
+	
+		\section{Final Regression for Clusters}
+		
+		\foreach \cluster in \CLUSTERS {
+			\edef\FileNameRegFit{\OutptFcst/\cluster_RegressionResult.tex}
+			\edef\FileNameRegFitDiag{\OutptFcst/\cluster_RegressionTestResult.tex}
+			\edef\FileNameRegDiff{\OutptFcst/\cluster_insample_diff.png}
+			\edef\FileNameRegLevel{\OutptFcst/\cluster_insample_level.png}
+			\edef\FileNameRegDiffTex{\OutptFcst/\cluster_insample_diff.tex}
+			\edef\FileNameRegLevelTex{\OutptFcst/\cluster_insample_level.tex}
+			\edef\FileNameRegLevelByVar{\OutptFcst/\cluster_insample_level_by_variables.png}
+
+			\edef\FileNameRegShort{\OutptFcst/\cluster_insample_level_Period_2007.png}
+			\edef\FileNameRegMedium{\OutptFcst/\cluster_insample_level_Period_2010.png}
+			\edef\FileNameRegLong{\OutptFcst/\cluster_insample_level_Period_2013.png}
+			%%%%%
+
+		 	\IfFileExists{\FileNameRegFit}{
+			\subsection{Cluster: $\cluster$}
+			\subsubsection{Regression Results}
+				\input{\FileNameRegFit}
+			}{}
+	
+		 	\IfFileExists{\FileNameRegFitDiag}{
+			\subsubsection{Diagnostic Tests}
+				\input{\FileNameRegFitDiag}
+			}{}
+	
+		 	\IfFileExists{\FileNameRegDiff}{
+			\subsubsection{Backtest and Forecast}
+			\begin{tabularx}{\textwidth}{cc}
+				\IfFileExists{\FileNameRegDiff}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameRegDiff}}{}&
+				\IfFileExists{\FileNameRegLevel}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameRegLevel}}{}\\
+			\end{tabularx}
+			}{}
+
+		 	\IfFileExists{\FileNameRegLevelByVar}{
+			\subsubsection{Contribution of Variables}
+			\begin{tabularx}{\textwidth}{c}
+				\IfFileExists{\FileNameRegLevelByVar}{\includegraphics[width=1.0\textwidth,keepaspectratio]{\FileNameRegLevelByVar}}{}
+			\end{tabularx}
+			\newpage
+			}{}			
+	
+	 		\IfFileExists{\FileNameRegDiffTex}{
+		 		\begin{landscape}
+		 		\subsubsection{Backtest and Forecast - Numerical on Differenced Values}
+		 		{\scriptsize
+		 			\input{\FileNameRegDiffTex}
+		 		}\end{landscape}
+		 		\newpage
+	 		}{}
+	
+	 		\IfFileExists{\FileNameRegLevelTex}{
+		 		\begin{landscape}
+		 		\subsubsection{Backtest and Forecast - Numerical on Level Values}
+		 		{\scriptsize
+		 			\input{\FileNameRegLevelTex}
+		 		}\end{landscape}
+		 		\newpage
+	 		}{}
+
+		 	\edef\FileNameOutSampleAcient{\OutptOutSample/\cluster-ImpactOfAcientPeriods.png}
+		 	\edef\FileNameOutSampleAcientOne{\OutptOutSample/\cluster-Acient-1.png}
+		 	\edef\FileNameOutSampleAcientTwo{\OutptOutSample/\cluster-Acient-2.png}
+		 	\edef\FileNameOutSampleAcientThree{\OutptOutSample/\cluster-Acient-3.png}
+		 	\edef\FileNameOutSampleAcientFour{\OutptOutSample/\cluster-Acient-4.png}
+		 	\edef\FileNameOutSampleAcientFive{\OutptOutSample/\cluster-Acient-5.png}
+		 	\edef\FileNameOutSampleAcientSix{\OutptOutSample/\cluster-Acient-6.png}
+		 	\edef\FileNameOutSampleAcientSeven{\OutptOutSample/\cluster-Acient-7.png}
+		 	\edef\FileNameOutSampleAcientEight{\OutptOutSample/\cluster-Acient-8.png}
+		 	\edef\FileNameOutSampleAcientNine{\OutptOutSample/\cluster-Acient-9.png}
+
+	
+		 	\IfFileExists{\FileNameOutSampleAcient}{
+			 	\subsubsection{Out of Sample Testing - 1}
+				\begin{tabularx}{\textwidth}{cc}
+					\IfFileExists{\FileNameOutSampleAcient}{\includegraphics[height=0.33\textheight,width=1.0\textwidth,keepaspectratio]{\FileNameOutSampleAcient}}{}
+				\end{tabularx}
+
+				\begin{tabularx}{\textwidth}{cc}
+					\IfFileExists{\FileNameOutSampleAcientOne}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameOutSampleAcientOne}}{}&
+					\IfFileExists{\FileNameOutSampleAcientTwo}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameOutSampleAcientTwo}}{}\\
+					\IfFileExists{\FileNameOutSampleAcientThree}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameOutSampleAcientThree}}{}&
+					\IfFileExists{\FileNameOutSampleAcientFour}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameOutSampleAcientFour}}{}
+				\end{tabularx}
+	
+				\begin{tabularx}{\textwidth}{cc}
+					\IfFileExists{\FileNameOutSampleAcientFive}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameOutSampleAcientFive}}{}&
+					\IfFileExists{\FileNameOutSampleAcientSix}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameOutSampleAcientSix}}{}\\
+					\IfFileExists{\FileNameOutSampleAcientSeven}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameOutSampleAcientSeven}}{}&
+					\IfFileExists{\FileNameOutSampleAcientEight}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameOutSampleAcientEight}}{}\\
+					\IfFileExists{\FileNameOutSampleAcientNine}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameOutSampleAcientNine}}{}&
+					\\
+				\end{tabularx}
+				\newpage
+		 	}{}
+	
+	
+		 	\edef\FileNameOutSampleRecent{\OutptOutSample/\cluster-ImpactOfRecentPeriods.png}
+		 	\edef\FileNameOutSampleRecentOne{\OutptOutSample/\cluster-Recent-1.png}
+		 	\edef\FileNameOutSampleRecentTwo{\OutptOutSample/\cluster-Recent-2.png}
+		 	\edef\FileNameOutSampleRecentThree{\OutptOutSample/\cluster-Recent-3.png}
+		 	\edef\FileNameOutSampleRecentFour{\OutptOutSample/\cluster-Recent-4.png}
+		 	\edef\FileNameOutSampleRecentFive{\OutptOutSample/\cluster-Recent-5.png}
+		 	\edef\FileNameOutSampleRecentSix{\OutptOutSample/\cluster-Recent-6.png}
+		 	\edef\FileNameOutSampleRecentSeven{\OutptOutSample/\cluster-Recent-7.png}
+		 	\edef\FileNameOutSampleRecentEight{\OutptOutSample/\cluster-Recent-8.png}
+		 	\edef\FileNameOutSampleRecentNine{\OutptOutSample/\cluster-Recent-9.png}
+
+		 	\IfFileExists{\FileNameOutSampleRecent}{
+			 	\subsubsection{Out of Sample Testing - 2}
+				\begin{tabularx}{\textwidth}{cc}
+					\IfFileExists{\FileNameOutSampleRecent}{\includegraphics[height=0.33\textheight,width=1.0\textwidth,keepaspectratio]{\FileNameOutSampleRecent}}{}
+				\end{tabularx}
+
+				\begin{tabularx}{\textwidth}{cc}
+					\IfFileExists{\FileNameOutSampleRecentOne}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameOutSampleRecentOne}}{}&
+					\IfFileExists{\FileNameOutSampleRecentTwo}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameOutSampleRecentTwo}}{}\\
+					\IfFileExists{\FileNameOutSampleRecentThree}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameOutSampleRecentThree}}{}&
+					\IfFileExists{\FileNameOutSampleRecentFour}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameOutSampleRecentFour}}{}
+				\end{tabularx}
+	
+				\begin{tabularx}{\textwidth}{cc}
+					\IfFileExists{\FileNameOutSampleRecentFive}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameOutSampleRecentFive}}{}&
+					\IfFileExists{\FileNameOutSampleRecentSix}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameOutSampleRecentSix}}{}\\
+					\IfFileExists{\FileNameOutSampleRecentSeven}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameOutSampleRecentSeven}}{}&
+					\IfFileExists{\FileNameOutSampleRecentEight}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameOutSampleRecentEight}}{}\\
+					\IfFileExists{\FileNameOutSampleRecentNine}{\includegraphics[width=0.5\textwidth,keepaspectratio]{\FileNameOutSampleRecentNine}}{}&
+					\\
+				\end{tabularx}
+				\newpage
+		 	}{}
+		}
+	}{}
+
+
+	\section{Forecast At Credit Spread Index Level}
+	\foreach \csi in \Curves{
+		\edef\FileNameCSIForecast{\OutptFcstCSI/\csi_insample_level.png}
+		\edef\FileNameCSIForecastTex{\OutptFcstCSI/\csi_insample_level.tex}
+		
+		 \IfFileExists{\FileNameCSIForecast}{
+		 	\subsection{Forecast: $\csi$}
+			\IfFileExists{\FileNameCSIForecast}{
+			\includegraphics[height=0.5\textheight,keepaspectratio]{\FileNameCSIForecast}
+			}{}
+			\newpage
+	
+			\IfFileExists{\FileNameCSIForecastTex}{
+			\begin{landscape}
+			{\scriptsize
+				\input{\FileNameCSIForecastTex}
+			}\end{landscape}
+			}{}
+		}{}
+	}
+
+}
+
+
+
+\end{document} 

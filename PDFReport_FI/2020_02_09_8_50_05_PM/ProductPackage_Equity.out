@@ -1,0 +1,147 @@
+\BOOKMARK [1][-]{section.1}{Asset Classes}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Summary of Asset Classes}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{History: EQlargecap}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{History: EQmidcap}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{History: EQsmallcap}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{History: EQdevedintl}{section.1}% 6
+\BOOKMARK [2][-]{subsection.1.6}{History: EQdevingintl}{section.1}% 7
+\BOOKMARK [1][-]{section.2}{Clusters Analysis of Asset Classes}{}% 8
+\BOOKMARK [2][-]{subsection.2.1}{Asset Class: Equity}{section.2}% 9
+\BOOKMARK [1][-]{section.3}{PCA for Clusters}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{Cluster: EQlargecap}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Cluster: EQmidcap}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.3}{Cluster: EQsmallcap}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.4}{Cluster: EQdevedintl}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.5}{Cluster: EQdevingintl}{section.3}% 15
+\BOOKMARK [1][-]{section.4}{Variable Selection}{}% 16
+\BOOKMARK [2][-]{subsection.4.1}{Single Factor Model for EQlargecap}{section.4}% 17
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Model - 1}{subsection.4.1}% 18
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Model - 2}{subsection.4.1}% 19
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Model - 3}{subsection.4.1}% 20
+\BOOKMARK [3][-]{subsubsection.4.1.4}{Model - 4}{subsection.4.1}% 21
+\BOOKMARK [3][-]{subsubsection.4.1.5}{Model - 5}{subsection.4.1}% 22
+\BOOKMARK [3][-]{subsubsection.4.1.6}{Model - 6}{subsection.4.1}% 23
+\BOOKMARK [3][-]{subsubsection.4.1.7}{Model - 7}{subsection.4.1}% 24
+\BOOKMARK [3][-]{subsubsection.4.1.8}{Model - 8}{subsection.4.1}% 25
+\BOOKMARK [3][-]{subsubsection.4.1.9}{Model - 9}{subsection.4.1}% 26
+\BOOKMARK [3][-]{subsubsection.4.1.10}{Model - 10}{subsection.4.1}% 27
+\BOOKMARK [3][-]{subsubsection.4.1.11}{Model - 11}{subsection.4.1}% 28
+\BOOKMARK [3][-]{subsubsection.4.1.12}{Model - 12}{subsection.4.1}% 29
+\BOOKMARK [3][-]{subsubsection.4.1.13}{Model - 13}{subsection.4.1}% 30
+\BOOKMARK [3][-]{subsubsection.4.1.14}{Model - 14}{subsection.4.1}% 31
+\BOOKMARK [3][-]{subsubsection.4.1.15}{Model - 15}{subsection.4.1}% 32
+\BOOKMARK [3][-]{subsubsection.4.1.16}{Model - 16}{subsection.4.1}% 33
+\BOOKMARK [3][-]{subsubsection.4.1.17}{Model - 17}{subsection.4.1}% 34
+\BOOKMARK [3][-]{subsubsection.4.1.18}{Model - 18}{subsection.4.1}% 35
+\BOOKMARK [3][-]{subsubsection.4.1.19}{Model - 19}{subsection.4.1}% 36
+\BOOKMARK [3][-]{subsubsection.4.1.20}{Model - 20}{subsection.4.1}% 37
+\BOOKMARK [3][-]{subsubsection.4.1.21}{Model - 21}{subsection.4.1}% 38
+\BOOKMARK [3][-]{subsubsection.4.1.22}{Model - 22}{subsection.4.1}% 39
+\BOOKMARK [3][-]{subsubsection.4.1.23}{Model - 23}{subsection.4.1}% 40
+\BOOKMARK [3][-]{subsubsection.4.1.24}{Model - 24}{subsection.4.1}% 41
+\BOOKMARK [3][-]{subsubsection.4.1.25}{Model - 25}{subsection.4.1}% 42
+\BOOKMARK [3][-]{subsubsection.4.1.26}{Model - 26}{subsection.4.1}% 43
+\BOOKMARK [2][-]{subsection.4.2}{Two Factor Model for EQlargecap}{section.4}% 44
+\BOOKMARK [2][-]{subsection.4.3}{Single Factor Model for EQmidcap}{section.4}% 45
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Model - 1}{subsection.4.3}% 46
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Model - 2}{subsection.4.3}% 47
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Model - 3}{subsection.4.3}% 48
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Model - 4}{subsection.4.3}% 49
+\BOOKMARK [3][-]{subsubsection.4.3.5}{Model - 5}{subsection.4.3}% 50
+\BOOKMARK [3][-]{subsubsection.4.3.6}{Model - 6}{subsection.4.3}% 51
+\BOOKMARK [3][-]{subsubsection.4.3.7}{Model - 7}{subsection.4.3}% 52
+\BOOKMARK [3][-]{subsubsection.4.3.8}{Model - 8}{subsection.4.3}% 53
+\BOOKMARK [3][-]{subsubsection.4.3.9}{Model - 9}{subsection.4.3}% 54
+\BOOKMARK [3][-]{subsubsection.4.3.10}{Model - 10}{subsection.4.3}% 55
+\BOOKMARK [3][-]{subsubsection.4.3.11}{Model - 11}{subsection.4.3}% 56
+\BOOKMARK [3][-]{subsubsection.4.3.12}{Model - 12}{subsection.4.3}% 57
+\BOOKMARK [3][-]{subsubsection.4.3.13}{Model - 13}{subsection.4.3}% 58
+\BOOKMARK [3][-]{subsubsection.4.3.14}{Model - 14}{subsection.4.3}% 59
+\BOOKMARK [3][-]{subsubsection.4.3.15}{Model - 15}{subsection.4.3}% 60
+\BOOKMARK [3][-]{subsubsection.4.3.16}{Model - 16}{subsection.4.3}% 61
+\BOOKMARK [3][-]{subsubsection.4.3.17}{Model - 17}{subsection.4.3}% 62
+\BOOKMARK [3][-]{subsubsection.4.3.18}{Model - 18}{subsection.4.3}% 63
+\BOOKMARK [3][-]{subsubsection.4.3.19}{Model - 19}{subsection.4.3}% 64
+\BOOKMARK [3][-]{subsubsection.4.3.20}{Model - 20}{subsection.4.3}% 65
+\BOOKMARK [3][-]{subsubsection.4.3.21}{Model - 21}{subsection.4.3}% 66
+\BOOKMARK [3][-]{subsubsection.4.3.22}{Model - 22}{subsection.4.3}% 67
+\BOOKMARK [3][-]{subsubsection.4.3.23}{Model - 23}{subsection.4.3}% 68
+\BOOKMARK [3][-]{subsubsection.4.3.24}{Model - 24}{subsection.4.3}% 69
+\BOOKMARK [3][-]{subsubsection.4.3.25}{Model - 25}{subsection.4.3}% 70
+\BOOKMARK [3][-]{subsubsection.4.3.26}{Model - 26}{subsection.4.3}% 71
+\BOOKMARK [3][-]{subsubsection.4.3.27}{Model - 27}{subsection.4.3}% 72
+\BOOKMARK [3][-]{subsubsection.4.3.28}{Model - 28}{subsection.4.3}% 73
+\BOOKMARK [3][-]{subsubsection.4.3.29}{Model - 29}{subsection.4.3}% 74
+\BOOKMARK [3][-]{subsubsection.4.3.30}{Model - 30}{subsection.4.3}% 75
+\BOOKMARK [2][-]{subsection.4.4}{Two Factor Model for EQmidcap}{section.4}% 76
+\BOOKMARK [2][-]{subsection.4.5}{Single Factor Model for EQsmallcap}{section.4}% 77
+\BOOKMARK [3][-]{subsubsection.4.5.1}{Model - 1}{subsection.4.5}% 78
+\BOOKMARK [3][-]{subsubsection.4.5.2}{Model - 2}{subsection.4.5}% 79
+\BOOKMARK [3][-]{subsubsection.4.5.3}{Model - 3}{subsection.4.5}% 80
+\BOOKMARK [3][-]{subsubsection.4.5.4}{Model - 4}{subsection.4.5}% 81
+\BOOKMARK [3][-]{subsubsection.4.5.5}{Model - 5}{subsection.4.5}% 82
+\BOOKMARK [3][-]{subsubsection.4.5.6}{Model - 6}{subsection.4.5}% 83
+\BOOKMARK [3][-]{subsubsection.4.5.7}{Model - 7}{subsection.4.5}% 84
+\BOOKMARK [3][-]{subsubsection.4.5.8}{Model - 8}{subsection.4.5}% 85
+\BOOKMARK [3][-]{subsubsection.4.5.9}{Model - 9}{subsection.4.5}% 86
+\BOOKMARK [3][-]{subsubsection.4.5.10}{Model - 10}{subsection.4.5}% 87
+\BOOKMARK [3][-]{subsubsection.4.5.11}{Model - 11}{subsection.4.5}% 88
+\BOOKMARK [3][-]{subsubsection.4.5.12}{Model - 12}{subsection.4.5}% 89
+\BOOKMARK [3][-]{subsubsection.4.5.13}{Model - 13}{subsection.4.5}% 90
+\BOOKMARK [3][-]{subsubsection.4.5.14}{Model - 14}{subsection.4.5}% 91
+\BOOKMARK [3][-]{subsubsection.4.5.15}{Model - 15}{subsection.4.5}% 92
+\BOOKMARK [3][-]{subsubsection.4.5.16}{Model - 16}{subsection.4.5}% 93
+\BOOKMARK [3][-]{subsubsection.4.5.17}{Model - 17}{subsection.4.5}% 94
+\BOOKMARK [3][-]{subsubsection.4.5.18}{Model - 18}{subsection.4.5}% 95
+\BOOKMARK [3][-]{subsubsection.4.5.19}{Model - 19}{subsection.4.5}% 96
+\BOOKMARK [3][-]{subsubsection.4.5.20}{Model - 20}{subsection.4.5}% 97
+\BOOKMARK [3][-]{subsubsection.4.5.21}{Model - 21}{subsection.4.5}% 98
+\BOOKMARK [3][-]{subsubsection.4.5.22}{Model - 22}{subsection.4.5}% 99
+\BOOKMARK [3][-]{subsubsection.4.5.23}{Model - 23}{subsection.4.5}% 100
+\BOOKMARK [3][-]{subsubsection.4.5.24}{Model - 24}{subsection.4.5}% 101
+\BOOKMARK [3][-]{subsubsection.4.5.25}{Model - 25}{subsection.4.5}% 102
+\BOOKMARK [3][-]{subsubsection.4.5.26}{Model - 26}{subsection.4.5}% 103
+\BOOKMARK [3][-]{subsubsection.4.5.27}{Model - 27}{subsection.4.5}% 104
+\BOOKMARK [2][-]{subsection.4.6}{Two Factor Model for EQsmallcap}{section.4}% 105
+\BOOKMARK [2][-]{subsection.4.7}{Single Factor Model for EQdevedintl}{section.4}% 106
+\BOOKMARK [3][-]{subsubsection.4.7.1}{Model - 1}{subsection.4.7}% 107
+\BOOKMARK [3][-]{subsubsection.4.7.2}{Model - 2}{subsection.4.7}% 108
+\BOOKMARK [3][-]{subsubsection.4.7.3}{Model - 3}{subsection.4.7}% 109
+\BOOKMARK [3][-]{subsubsection.4.7.4}{Model - 4}{subsection.4.7}% 110
+\BOOKMARK [3][-]{subsubsection.4.7.5}{Model - 5}{subsection.4.7}% 111
+\BOOKMARK [3][-]{subsubsection.4.7.6}{Model - 6}{subsection.4.7}% 112
+\BOOKMARK [3][-]{subsubsection.4.7.7}{Model - 7}{subsection.4.7}% 113
+\BOOKMARK [3][-]{subsubsection.4.7.8}{Model - 8}{subsection.4.7}% 114
+\BOOKMARK [3][-]{subsubsection.4.7.9}{Model - 9}{subsection.4.7}% 115
+\BOOKMARK [3][-]{subsubsection.4.7.10}{Model - 10}{subsection.4.7}% 116
+\BOOKMARK [3][-]{subsubsection.4.7.11}{Model - 11}{subsection.4.7}% 117
+\BOOKMARK [3][-]{subsubsection.4.7.12}{Model - 12}{subsection.4.7}% 118
+\BOOKMARK [3][-]{subsubsection.4.7.13}{Model - 13}{subsection.4.7}% 119
+\BOOKMARK [3][-]{subsubsection.4.7.14}{Model - 14}{subsection.4.7}% 120
+\BOOKMARK [3][-]{subsubsection.4.7.15}{Model - 15}{subsection.4.7}% 121
+\BOOKMARK [3][-]{subsubsection.4.7.16}{Model - 16}{subsection.4.7}% 122
+\BOOKMARK [3][-]{subsubsection.4.7.17}{Model - 17}{subsection.4.7}% 123
+\BOOKMARK [2][-]{subsection.4.8}{Two Factor Model for EQdevedintl}{section.4}% 124
+\BOOKMARK [2][-]{subsection.4.9}{Single Factor Model for EQdevingintl}{section.4}% 125
+\BOOKMARK [3][-]{subsubsection.4.9.1}{Model - 1}{subsection.4.9}% 126
+\BOOKMARK [3][-]{subsubsection.4.9.2}{Model - 2}{subsection.4.9}% 127
+\BOOKMARK [3][-]{subsubsection.4.9.3}{Model - 3}{subsection.4.9}% 128
+\BOOKMARK [3][-]{subsubsection.4.9.4}{Model - 4}{subsection.4.9}% 129
+\BOOKMARK [3][-]{subsubsection.4.9.5}{Model - 5}{subsection.4.9}% 130
+\BOOKMARK [3][-]{subsubsection.4.9.6}{Model - 6}{subsection.4.9}% 131
+\BOOKMARK [3][-]{subsubsection.4.9.7}{Model - 7}{subsection.4.9}% 132
+\BOOKMARK [3][-]{subsubsection.4.9.8}{Model - 8}{subsection.4.9}% 133
+\BOOKMARK [3][-]{subsubsection.4.9.9}{Model - 9}{subsection.4.9}% 134
+\BOOKMARK [3][-]{subsubsection.4.9.10}{Model - 10}{subsection.4.9}% 135
+\BOOKMARK [3][-]{subsubsection.4.9.11}{Model - 11}{subsection.4.9}% 136
+\BOOKMARK [3][-]{subsubsection.4.9.12}{Model - 12}{subsection.4.9}% 137
+\BOOKMARK [3][-]{subsubsection.4.9.13}{Model - 13}{subsection.4.9}% 138
+\BOOKMARK [3][-]{subsubsection.4.9.14}{Model - 14}{subsection.4.9}% 139
+\BOOKMARK [3][-]{subsubsection.4.9.15}{Model - 15}{subsection.4.9}% 140
+\BOOKMARK [3][-]{subsubsection.4.9.16}{Model - 16}{subsection.4.9}% 141
+\BOOKMARK [3][-]{subsubsection.4.9.17}{Model - 17}{subsection.4.9}% 142
+\BOOKMARK [3][-]{subsubsection.4.9.18}{Model - 18}{subsection.4.9}% 143
+\BOOKMARK [3][-]{subsubsection.4.9.19}{Model - 19}{subsection.4.9}% 144
+\BOOKMARK [3][-]{subsubsection.4.9.20}{Model - 20}{subsection.4.9}% 145
+\BOOKMARK [3][-]{subsubsection.4.9.21}{Model - 21}{subsection.4.9}% 146
+\BOOKMARK [2][-]{subsection.4.10}{Two Factor Model for EQdevingintl}{section.4}% 147
