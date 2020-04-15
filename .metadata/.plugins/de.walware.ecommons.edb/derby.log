@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Apr 15 14:46:27 EDT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0171-7f29-ee8b-00000bfa510e 
+on database directory C:\Users\huang\workspace\MASG\.metadata\.plugins\de.walware.statet.r.core\db with class loader org.eclipse.osgi.internal.loader.EquinoxClassLoader@a49cdd6[de.walware.3rdparty-org.apache.derby.core:10.10.2000000.b201703271500E46sw(id=480)] 
+Loaded from file:/C:/Users/huang/eclipse/java-2019-03/eclipse/../../../.p2/pool/plugins/de.walware.3rdparty-org.apache.derby.core_10.10.2000000.b201703271500E46sw.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_241-b07
+user.dir=C:\Users\huang\Desktop
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\huang\workspace\MASG\.metadata\.plugins\de.walware.ecommons.edb
+Database Class Loader started - derby.database.classpath=''
